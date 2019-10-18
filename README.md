@@ -31,6 +31,47 @@ Bro, don't die! https://github.com/rust-lang/rustup.rs It keeps Rust Programming
 
 ### Algorithms
 [2019-10-08][died] https://github.com/TheAlgorithms/Rust - the algorthm list is useful. Python/C algorithms are good ref.
+[2019-10-08][Active] https://github.com/reem/rust-ordered-float
+h[2019-10-08][Active] ttps://github.com/rust-random/rand
 
 ### maintainments
 [2019-10-08][active] https://github.com/rust-lang/rustup.rs
+
+### Database relatives
+[2019-10-08][active] https://github.com/pingcap/rust-prometheus
+[2019-10-08][died] https://github.com/nickel-org/nickel-postgres
+[2019-10-08][died] https://github.com/sfackler/r2d2-postgres - A generic connection pool for Rust. 
+[2019-10-08][active] https://github.com/sfackler/rust-postgres - postgres db driver.
+[2019-10-08][active] https://github.com/sfackler/rust-postgres-large-object
+
+### Middleware relatives
+[2019-10-08][active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
+[2019-10-08][active] https://github.com/crossbeam-rs/crossbeam - Tools for concurrent programming in Rust, RPC, PIPE, SYNC and etc.
+
+### Open Source management
+[2019-10-08][active] https://github.com/crossbeam-rs/rfcs - There is a RPC process and templates I could ref for my own.
+
+### Web Server
+[2019-10-08][active] https://github.com/nickel-org/nickel.rs
+
+### Log
+[2019-10-08][active] https://github.com/sfackler/log4rs
+[2019-10-08][active] https://github.com/rust-lang-nursery/log
+
+### Crypto
+[2019-10-08][active] https://github.com/sfackler/rust-openssl
+[2019-10-08][active] https://github.com/sfackler/hyper-native-tls
+
+### Async & Parallel computing
+[2019-10-08][active] https://github.com/Matthias247/futures-intrusive
+[2019-10-08][active] https://github.com/tokio-rs/tokio A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ... https://tokio.rs
+
+### Rust Language General
+[2019-10-08][active] https://github.com/dtolnay/quote
+
+### Networking
+[2019-10-08][active] https://github.com/sfackler/rust-socks
+[2019-10-08][active] https://github.com/alexcrichton/socket2-rs
+
+### UI tools
+[2019-10-08][active] https://github.com/rust-lang-nursery/mdBook
