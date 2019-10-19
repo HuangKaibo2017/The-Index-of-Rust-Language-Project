@@ -24,10 +24,12 @@ Bro, don't die! https://github.com/rust-lang/rustup.rs It keeps Rust Programming
 ### Books
 [2019-10-08][Active] https://github.com/rust-lang/book 
 [2019-10-08][died] https://github.com/rustcc/RustPrimer
-[2019-10-08][Active] https://github.com/rust-lang/rust-clippy official site of 
+[2019-10-08][Active] https://github.com/rust-lang/rust-clippy official site of tips
+[2019-10-08][died] https://github.com/stevedonovan/gentle-intro
 
-### Interactive with Python
+### Interactive with Other Programming Language
 [2019-10-08][Active] https://github.com/RustPython/RustPython - Looks good to me
+[2019-10-08][Active] https://github.com/alexcrichton/cc-rs Compile c/c++ code to binary and call by Rust.
 
 ### Algorithms
 [2019-10-08][died] https://github.com/TheAlgorithms/Rust - the algorthm list is useful. Python/C algorithms are good ref.
@@ -36,6 +38,7 @@ h[2019-10-08][Active] ttps://github.com/rust-random/rand
 
 ### maintainments
 [2019-10-08][active] https://github.com/rust-lang/rustup.rs
+[2019-10-08][active] https://github.com/chyh1990/yaml-rust
 
 ### Database relatives
 [2019-10-08][active] https://github.com/pingcap/rust-prometheus
@@ -43,6 +46,10 @@ h[2019-10-08][Active] ttps://github.com/rust-random/rand
 [2019-10-08][died] https://github.com/sfackler/r2d2-postgres - A generic connection pool for Rust. 
 [2019-10-08][active] https://github.com/sfackler/rust-postgres - postgres db driver.
 [2019-10-08][active] https://github.com/sfackler/rust-postgres-large-object
+[2019-10-09][active] https://github.com/sfackler/foreign-types
+
+### Data Format relative
+[2019-10-09][active] https://github.com/serde-rs/json
 
 ### Middleware relatives
 [2019-10-08][active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
@@ -72,6 +79,13 @@ h[2019-10-08][Active] ttps://github.com/rust-random/rand
 ### Networking
 [2019-10-08][active] https://github.com/sfackler/rust-socks
 [2019-10-08][active] https://github.com/alexcrichton/socket2-rs
+[2019-10-08][active] https://github.com/cloudflare/boringtun a replacement of OpenVPN
+[2019-10-08][active] https://github.com/hyperium/http - A general purpose library of common HTTP types.
+[2019-10-09][active] https://github.com/paritytech/jsonrpc
 
-### UI tools
-[2019-10-08][active] https://github.com/rust-lang-nursery/mdBook
+### UI/Console tools
+[2019-10-08][active] https://github.com/rust-lang-nursery/mdBook compile md via Rust.
+[2019-10-09][active] https://github.com/lotabout/skim  navigate files, lines, commands. It is a general fuzzy finder that saves you time.
+
+### Multi-media
+[2019-10-09][active] https://github.com/jeremyletang/rust-sfml - A gent to Simple and Fast Multimedia Library(SFML) - https://www.sfml-dev.org/
