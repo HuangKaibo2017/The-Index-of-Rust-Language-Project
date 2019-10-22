@@ -2,9 +2,9 @@
 I am trying to do something on Rust project, before that it needs to build up proper help tools, that is, rebuild some gears. First thing first, I need to know what gears I need that doesn't have a proper implement. So how about make a list/index of the rust I found might useful to me or someone else?  Let me do it now.... :)
 
 ## Standard of my selection
-Score
+##### Score
 The index only relative to the works i might be interested in.
-Not Score
+##### Not Score
 The projects need not be 'awesome' as those 'Awesome XXX project' listed. The index would be a try of complete list of Rust Language project even it might be *complete* if nutcases are enough to fulfill the impossible task.
 
 ## Search Method Description
@@ -14,78 +14,206 @@ https://github.com/search?l=Rust&p=12&q=rust&type=Repositories
 
 ## Similar Works
 https://github.com/rust-unofficial/awesome-rust - I have to read it too :D. There are some diff of mine against that list.
-https://crates.io/ full list of crates.
+https://crates.io/ - full list of crates.
+https://github.com/rust-windowing/winit/wiki/Missing-features-provided-by-other-crates - About GUI.
+https://github.com/rust-lang-nursery - baby rust projects.
 
 ## Okey, Now the list
 
 ### Rust Language itself
 Bro, don't die! https://github.com/rust-lang/rustup.rs It keeps Rust Programming Language live
-
-### Books
-[2019-10-08][Active] https://github.com/rust-lang/book 
-[2019-10-08][died] https://github.com/rustcc/RustPrimer
-[2019-10-08][Active] https://github.com/rust-lang/rust-clippy official site of tips
-[2019-10-08][died] https://github.com/stevedonovan/gentle-intro
-
-### Interactive with Other Programming Language
-[2019-10-08][Active] https://github.com/RustPython/RustPython - Looks good to me
-[2019-10-08][Active] https://github.com/alexcrichton/cc-rs Compile c/c++ code to binary and call by Rust.
-
-### Algorithms
-[2019-10-08][died] https://github.com/TheAlgorithms/Rust - the algorthm list is useful. Python/C algorithms are good ref.
-[2019-10-08][Active] https://github.com/reem/rust-ordered-float
-h[2019-10-08][Active] ttps://github.com/rust-random/rand
-
-### maintainments
-[2019-10-08][active] https://github.com/rust-lang/rustup.rs
-[2019-10-08][active] https://github.com/chyh1990/yaml-rust
-
-### Database relatives
-[2019-10-08][active] https://github.com/pingcap/rust-prometheus
-[2019-10-08][died] https://github.com/nickel-org/nickel-postgres
-[2019-10-08][died] https://github.com/sfackler/r2d2-postgres - A generic connection pool for Rust. 
-[2019-10-08][active] https://github.com/sfackler/rust-postgres - postgres db driver.
-[2019-10-08][active] https://github.com/sfackler/rust-postgres-large-object
-[2019-10-09][active] https://github.com/sfackler/foreign-types
-
-### Data Format relative
-[2019-10-09][active] https://github.com/serde-rs/json
-
-### Middleware relatives
-[2019-10-08][active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
-[2019-10-08][active] https://github.com/crossbeam-rs/crossbeam - Tools for concurrent programming in Rust, RPC, PIPE, SYNC and etc.
-
-### Open Source management
-[2019-10-08][active] https://github.com/crossbeam-rs/rfcs - There is a RPC process and templates I could ref for my own.
-
-### Web Server
-[2019-10-08][active] https://github.com/nickel-org/nickel.rs
-
-### Log
-[2019-10-08][active] https://github.com/sfackler/log4rs
-[2019-10-08][active] https://github.com/rust-lang-nursery/log
-
-### Crypto
-[2019-10-08][active] https://github.com/sfackler/rust-openssl
-[2019-10-08][active] https://github.com/sfackler/hyper-native-tls
-
-### Async & Parallel computing
-[2019-10-08][active] https://github.com/Matthias247/futures-intrusive
-[2019-10-08][active] https://github.com/tokio-rs/tokio A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ... https://tokio.rs
+https://github.com/rust-lang-nursery/reference - Official of The Rust Language Reference
+https://github.com/rust-lang/rfcs - RFCs
 
 ### Rust Language General
-[2019-10-08][active] https://github.com/dtolnay/quote
+[2019-10-18][Active] https://github.com/dtolnay/quote - This crate provides the quote! macro for turning Rust syntax tree data structures into tokens of source code.
+[2019-10-20][Active] https://github.com/rust-lang-nursery/rustc-perf - Website for Rust Compiler Performance Monitoring & Benchmarking. https://perf.rust-lang.org
+[2019-10-20][Active] https://github.com/rust-lang-nursery/rust-toolstate - This repository records the compilation and testing status of development tools bundled with the Rust build system.
+[2019-10-20][Active] https://github.com/rust-lang/rust-clippy - A collection of lints to catch common mistakes and improve your Rust code.
+[2019-10-20][Active] https://github.com/rust-lang/miri - An interpreter for Rust's mid-level intermediate representation. An experimental interpreter for Rust's mid-level intermediate representation (MIR). It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior.
+[2019-10-22][Active] https://github.com/mehcode/config-rs - Layered configuration system for Rust applications (with strong support for 12-factor applications).
+[2019-10-22][Active] https://github.com/seanmonstar/try-lock - A light-weight lock guarded by an atomic boolean.
+[2019-10-22][Active] https://github.com/dtolnay/anyhow - A better Box<dyn Error> 
+[2019-10-22][Active] https://github.com/BurntSushi/ripgrep - ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern. 
 
-### Networking
-[2019-10-08][active] https://github.com/sfackler/rust-socks
-[2019-10-08][active] https://github.com/alexcrichton/socket2-rs
-[2019-10-08][active] https://github.com/cloudflare/boringtun a replacement of OpenVPN
-[2019-10-08][active] https://github.com/hyperium/http - A general purpose library of common HTTP types.
-[2019-10-09][active] https://github.com/paritytech/jsonrpc
+### Test
+[2019-10-22][Active] https://github.com/crossbario/autobahn-testsuite - used by 
+
+### Books
+[2019-10-20][Active] https://github.com/rust-lang-nursery/nomicon - The Dark Arts of Advanced and Unsafe Rust Programming. This book digs into all the awful details that are necessary to understand in order to write correct Unsafe Rust programs. Due to the nature of this problem, it may lead to unleashing untold horrors that shatter your psyche into a billion infinitesimal fragments of despair.
+[2019-10-20][Active] https://github.com/rust-lang-nursery/reference - Official of The Rust Language Reference
+[2019-10-18][Active] https://github.com/rust-lang/book 
+[2019-10-18][Died] https://github.com/rustcc/RustPrimer
+[2019-10-18][Active] https://github.com/rust-lang/rust-clippy - A collection of lints to catch common mistakes and improve your Rust code.
+[2019-10-18][Died] https://github.com/stevedonovan/gentle-intro
+[2019-10-20][Active] https://github.com/rust-lang-nursery/failure/
+[2019-10-22][Active] https://github.com/dtolnay/proc-macro-workshop - This repo contains a selection of projects designed to learn to write Rust procedural macros — Rust code that generates Rust code. Procedural macros in expression position.
+
+Others:
+http://acm.timus.ru/help.aspx?topic=rust
+https://www.oreilly.com/programming/free/files/why-rust.pdf
+https://open.kattis.com/problems
+
+
+### Algorithms
+[2019-10-18][Died] https://github.com/TheAlgorithms/Rust - the algorthm list is useful. Python/C algorithms are good ref.
+[2019-10-18][Active] https://github.com/reem/rust-ordered-float
+[2019-10-18][Active] ttps://github.com/rust-random/rand
+[2019-10-22][Active] https://github.com/EbTech/rust-algorithms - Common data structures and algorithms in Rust. Contest Algorithms in Rust.
+[2019-10-22][Active] https://github.com/rust-num/num - A collection of numeric types and traits for Rust.
+
+### ML-DL
+[2019-10-20][Active] https://github.com/RustAudio/deepspeech-rs - The library is open source and performs Speech-To-Text completely offline. They provide pretrained models for English. It binds to https://github.com/mozilla/DeepSpeech.
+[2019-10-22][Died] https://github.com/AtheMathmo/rusty-machine -Rusty-machine is a general purpose machine learning library implemented entirely in Rust. It aims to combine speed and ease of use - without requiring a huge number of external dependencies.
+[2019-10-22][Died] https://github.com/AtheMathmo/rulinalg - Rulinalg is a linear algebra library written in Rust that doesn't require heavy external dependencies. The goal of rulinalg is to provide efficient implementations of common linear algebra techniques in Rust.
+[2019-10-22][Died] https://github.com/AtheMathmo/rugrads - A proof of concept automatic differentiation library for Rust.
+[2019-10-22][Died] https://github.com/AtheMathmo/vision-rs - Access to computer vision benchmarking datasets in Rust. This library provides access to common machine learning benchmarking datasets.
+[2019-10-22][Active] https://github.com/arrayfire/arrayfire-rust - ArrayFire is a high performance library for parallel computing with an easy-to-use API. It enables users to write scientific computing code that is portable across CUDA, OpenCL and CPU devices. This project provides Rust bindings for the ArrayFire library. 
+
+### InterActive with Other Programming-Language/Platform
+[2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
+[2019-10-18][Active] https://github.com/alexcrichton/cc-rs - Compile c/c++ code to binary and call by Rust. https://docs.rs/cc
+[2019-10-19][Active] https://github.com/eqrion/cbindgen - A project for generating C bindings from Rust code.
+[2019-10-22][Active] https://github.com/rust-lang/libc - Raw bindings to platform APIs for Rust. libc provides all of the definitions necessary to easily interoperate with C code (or "C-like" code) on each of the platforms that Rust supports. This includes type definitions (e.g. c_int), constants (e.g. EINVAL) as well as function headers (e.g. malloc).
+
+### Robust Relative
+[2019-10-20][Active] https://github.com/rust-lang-nursery/error-chain - take full advantage of Rust's error handling features without the overhead of maintaining boilerplate error types and conversions. It implements an opinionated strategy for defining your own error types, as well as conversions from others' error types.
+
+### Serialization
+[2019-10-20][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
+
+### GUI/Game relatives
+[2019-10-19][Active] https://github.com/gfx-rs/gfx - A low-overhead Vulkan-like GPU API for Rust.
+[2019-10-19][Active] https://github.com/amethyst/rendy - State of the art "build your own engine" kit powered by gfx-hal, which mimics the Vulkan API.
+[2019-10-19][Active] https://github.com/gfx-rs/wgpu - WebGPU native implementation in Rust.
+[2019-10-19][Active] https://github.com/brendanzab/gl-rs - An OpenGL function pointer loader for Rust.
+[2019-10-19][Active] https://github.com/kvark/vange-rs - The idea of this project is to replicate the old look and behavior, but with native hardware acceleration for the graphics.
+[2019-10-19][Active] https://github.com/rust-windowing/glutin - A low-level library for OpenGL context creation, written in pure Rust. 
+[2019-10-19][Active] https://github.com/rust-windowing/winit - winit, Cross-platform window creation and management in Rust, like Qt.
+[2019-10-20][Active] https://github.com/rust-windowing/raw-window-handle - provides a common interface that window creation libraries (e.g. Winit, SDL) can use to easily talk with graphics libraries (e.g. gfx-hal).
+[2019-10-20][Died] https://github.com/oakes/SolidOak - SolidOak is a simple IDE for Rust
 
 ### UI/Console tools
-[2019-10-08][active] https://github.com/rust-lang-nursery/mdBook compile md via Rust.
-[2019-10-09][active] https://github.com/lotabout/skim  navigate files, lines, commands. It is a general fuzzy finder that saves you time.
+[2019-10-18][Active] https://github.com/rust-lang-nursery/mdBook compile md via Rust.
+[2019-10-19][Active] https://github.com/lotabout/skim  navigate files, lines, commands. It is a general fuzzy finder that saves you time.
+[2019-10-20][Active] https://github.com/integer32llc/rust-playground/ - This is the home of the Rust Playground(https://play.rust-lang.org/), also hosted by Integer 32(https://play.integer32.com/).
+
+### maintainments
+[2019-10-18][Active] https://github.com/rust-lang/rustup.rs
+[2019-10-18][Active] https://github.com/chyh1990/yaml-rust
+
+### Database relatives
+[2019-10-18][Active] https://github.com/pingcap/rust-prometheus
+[2019-10-18][Died] https://github.com/nickel-org/nickel-postgres
+[2019-10-18][Died] https://github.com/sfackler/r2d2-postgres - A generic connection pool for Rust. 
+[2019-10-18][Active] https://github.com/sfackler/rust-postgres - postgres db driver.
+[2019-10-18][Active] https://github.com/sfackler/rust-postgres-large-object
+[2019-10-19][Active] https://github.com/sfackler/foreign-types
+[2019-10-22][Active] https://github.com/rust-rocksdb/rust-rocksdb - rust wrapper for rocksdb.
+
+### Data Format relative
+[2019-10-19][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
+
+### Middleware relatives
+[2019-10-18][Active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
+[2019-10-18][Active] https://github.com/crossbeam-rs/crossbeam - Tools for concurrent programming in Rust, RPC, PIPE, SYNC and etc.
+
+### Open Source management
+[2019-10-18][Active] https://github.com/crossbeam-rs/rfcs - There is a RPC process and templates I could ref for my own.
+
+### Web Server
+[2019-10-18][Active] https://github.com/nickel-org/nickel.rs
+[2019-10-22][Active] https://github.com/SergioBenitez/Rocket - Rocket is a web framework for Rust (nightly) with a focus on ease-of-use, expressibility, and speed. 
+[2019-10-22][Active] https://github.com/websockets-rs/rust-websocket - 
+
+### Log
+[2019-10-18][Active] https://github.com/sfackler/log4rs
+[2019-10-18][Active] https://github.com/rust-lang-nursery/log - A Rust library providing a lightweight logging facade.
+[2019-10-22][Active] https://github.com/seanmonstar/pretty-env-logger - A simple logger built on top off env_logger(https://docs.rs/env_logger/0.7.1/env_logger/). It is configured via an environment variable and writes to standard error with nice colored output for log levels.
+[2019-10-22][Active] https://github.com/tokio-rs/tracing - Application level tracing for Rust. https://tokio.rs. is a framework for instrumenting Rust programs to collect structured, event-based diagnostic information. 
+
+### Crypto
+[2019-10-18][Active] https://github.com/sfackler/rust-openssl - OpenSSL bindings for Rust.
+[2019-10-18][Active] https://github.com/sfackler/hyper-native-tls - An abstraction over platform-specific TLS implementations.
+[2019-10-22][Active] https://github.com/ctz/rustls - Rustls is a TLS library that aims to provide a good level of cryptographic security, requires no configuration to achieve that security, and provides no unsafe features or obsolete cryptography.
+[2019-10-22][Active] https://github.com/DaGenix/rust-crypto - A (mostly) pure-Rust implementation of various cryptographic algorithms. 
+
+### Async & Parallel computing
+[2019-10-18][Active] https://github.com/Matthias247/futures-intrusive
+[2019-10-18][Active] https://github.com/tokio-rs/tokio A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ... https://tokio.rs
+[2019-10-20][Active] https://github.com/rust-lang-nursery/futures-rs - Zero-cost asynchronous programming in Rust http://rust-lang-nursery.github.io/futures-rs
+[2019-10-22][Active] https://github.com/tokio-rs/async-stream - Asynchronous streams for Rust using async & await notation.
+[2019-10-22][Active] https://github.com/tokio-rs/async - Utilities building on top of Rust's async primitives. 
+
+### Networking
+[2019-10-18][Active] https://github.com/sfackler/rust-socks
+[2019-10-18][Active] https://github.com/alexcrichton/socket2-rs
+[2019-10-22][Active] https://github.com/stepancheg/rust-protobuf - Rust implementation of Google protocol buffers.
+[2019-10-18][Active] https://github.com/cloudflare/boringtun a replacement of OpenVPN
+[2019-10-18][Active] https://github.com/hyperium/http - A general purpose library of common HTTP types.
+[2019-10-19][Active] https://github.com/paritytech/jsonrpc
+[2019-10-22][Active] https://github.com/seanmonstar/reqwest - An ergonomic, batteries-included HTTP Client for Rust.
+[2019-10-22][Active] https://github.com/hyperium/hyper - An HTTP library for Rust https://hyper.rs. Hyper is a relatively low-level library, if you are looking for simple high-level HTTP client, then you may wish to consider reqwest, which is built on top of this library.
+[2019-10-22][Active] https://github.com/hyperium/tonic - A native gRPC client & server implementation with async/await support. https://docs.rs/tonic.
+[2019-10-22][Active] https://github.com/hyperium/h2 - The h2 library has implemented more of the details of the HTTP/2.0 specification than any other Rust library. It also passes the h2spec set of tests.
+[2019-10-22][Active] https://github.com/hyperium/hyper-tls - Provides an HTTPS connector for use with hyper.
+[2019-10-22][Active] https://github.com/hyperium/http-body - Asynchronous HTTP body trait.
+[2019-10-22][Active] https://github.com/hyperium/http-connection - 
+[2019-10-22][Active] https://github.com/shadowsocks/shadowsocks-rust - This is a port of shadowsocks, which is VPN Client.
+[2019-10-22][Active] https://github.com/websockets-rs/rust-websocket - Rust-WebSocket is a WebSocket (RFC6455) library written in Rust.
+[2019-10-22][Active] https://github.com/tikv/grpc-rs - The gRPC library for Rust built on C Core library and futures.
+[2019-10-22][Active] https://github.com/stepancheg/rust-protobuf - Rust implementation of Google protocol buffers. Base on https://github.com/carllerche/bytes.
+[2019-10-22][Active] https://github.com/tafia/quick-protobuf - 
+[2019-10-22][Active] https://github.com/danburkert/prost - 
+[2019-10-22][Active] https://github.com/dflemstr/serde-protobuf - 
+[2019-10-22][Active] https://github.com/stepancheg/grpc-rust - 
+[2019-10-22][Active] https://github.com/servo/rust-url - 
 
 ### Multi-media
-[2019-10-09][active] https://github.com/jeremyletang/rust-sfml - A gent to Simple and Fast Multimedia Library(SFML) - https://www.sfml-dev.org/
+[2019-10-19][Active] https://github.com/jeremyletang/rust-sfml - A gent to Simple and Fast Multimedia Library(SFML) - https://www.sfml-dev.org/
+[2019-10-20][Active] https://github.com/RustAudio/rust-portaudio - PortAudio is a free, cross-platform, open-source, audio I/O library.
+[2019-10-20][Active] https://github.com/RustAudio/deepspeech-rs - The library is open source and performs Speech-To-Text completely offline. They provide pretrained models for English. It binds to https://github.com/mozilla/DeepSpeech.
+[2019-10-20][Active] https://github.com/RustAudio/rust-lv2 - A safe, fast, and ergonomic Rust library to create LV2 plugins for audio processing or synthesis, on any platform.
+[2019-10-20][Active] https://github.com/RustAudio/cpal - Cross-platform audio I/O library in pure Rust.
+[2019-10-20][Active] https://github.com/RustAudio/lewton - Vorbis decoder written in pure Rust.
+[2019-10-20][Active] https://github.com/RustAudio/coreaudio-rs - A friendly rust interface to Apple's Core Audio API. 
+[2019-10-20][Active] https://github.com/meh/rust-ffmpeg - Safe FFmpeg wrapper. 
+
+### Mobile device
+[2019-10-19][Active] https://github.com/rust-windowing/android-rs-glue - Glue between Rust and Android
+
+### Tools
+[2019-10-20][Active] https://github.com/servo/servo - The Servo Browser Engine https://servo.org/
+[2019-10-22][Active] https://github.com/racer-rust/racer - Rust Code Completion utility.
+
+### Others
+[2019-10-19][Active] https://github.com/dtolnay/syn - Parser for Rust source code.
+
+### work with git
+[2019-10-20][Active] https://github.com/rust-lang-nursery/rustc-pr-tracking/
+
+### Blockchain
+[2019-10-22][Active] https://github.com/holochain/holochain-rust - The core Holochain framework written in rust, a container API for running it (with rust and node implementations), and hdk-rust library for writing Zomes.
+
+### System IO
+[2019-10-22][Active] https://github.com/tokio-rs/mio - Mio is a lightweight I/O library for Rust with a focus on adding as little overhead as possible over the OS abstractions.
+[2019-10-22][Active] https://github.com/tokio-rs/bytes - A utility library for working with bytes.
+
+# License
+Licensed under either of
+    Apache License, Version 2.0 (LICENSE-APACHE or http://www.apache.org/licenses/LICENSE-2.0)
+    MIT license (LICENSE-MIT or http://opensource.org/licenses/MIT)
+at your option.
+
+## Some Great Contributor
+https://github.com/sfackler
+https://github.com/meh
+https://github.com/mehcode
+https://github.com/seanmonstar
+https://github.com/hyperium
+https://github.com/tokio-rs
+https://github.com/dtolnay
+https://github.com/stepancheg
+
+## Other relative stuff
+https://github.com/crossbario - Seamless connectivity for the IoT and real-time microservices.  https://crossbar.io
