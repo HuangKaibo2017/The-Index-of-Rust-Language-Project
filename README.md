@@ -10,7 +10,8 @@ The projects need not be 'awesome' as those 'Awesome XXX project' listed. The in
 ## Search Method Description
 The results cames from search feature of github UI and keyword as 'Rust' and filter as 'Rust Language'.
 status:
-https://github.com/search?l=Rust&p=12&q=rust&type=Repositories
+1. https://github.com/search?l=Rust&p=12&q=rust&type=Repositories
+2. https://awesomeopensource.com/projects/rust?projectPage=6
 
 ## Similar Works
 https://github.com/rust-unofficial/awesome-rust - I have to read it too :D. There are some diff of mine against that list.
@@ -30,6 +31,7 @@ https://github.com/cmr/this-week-in-rust - Content for this-week-in-rust.org. Ma
 [2019-10-18][Active] https://github.com/nrc/r4cppp - A Rust tutorial for experienced C and C++ programmers.
 [2019-10-18][Died] https://github.com/stevedonovan/gentle-intro
 [2019-10-20][Active] https://github.com/rust-lang-nursery/failure/
+[2019-10-23][Active] https://github.com/flosse/rust-web-framework-comparison - A comparison of some web frameworks and libs written in Rust.
 [2019-10-23][Active] https://github.com/cmr/this-week-in-rust/ - https://this-week-in-rust.org/
 [2019-10-22][Active] https://github.com/dtolnay/proc-macro-workshop - This repo contains a selection of projects designed to learn to write Rust procedural macros — Rust code that generates Rust code. Procedural macros in expression position.
 [2019-10-23][Active] https://github.com/crazymykl/rust-koans -Each koan builds up your knowledge of Rust and builds upon itself. By following the failures and errors presented, you will know what to work on next. As you finish one koan file, the next will be added to path_to_enlightenment.rs.
@@ -86,6 +88,8 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-22][Died] https://github.com/AtheMathmo/toy-os - Once I had a simple C kernel working I decided to switch to Rust! This was a fairly painful transition initially. Adapting my boot loader proved to be very error prone. Eventually I switched to GRUB and began following Philipp Oppermann's awesome blog(http://os.phil-opp.com/). Which is crazy good.
 [2019-10-22][Active] https://github.com/gz/rust-x86 - Library to program x86 (amd64) hardware. Contains x86 specific data structure descriptions, data-tables, as well as convenience function to call assembly instructions typically not exposed in higher level languages. https://docs.rs/x86
 [2019-10-23][Active] https://github.com/tsgates/rust.ko - A minimal Linux kernel module written in rust. 
+[2019-10-23][Active] https://github.com/BurntSushi/ripgrep - ripgrep recursively searches directories for a regex pattern
+[2019-10-23][Died] https://github.com/jwilm/rust_daemon_template - This is a template for writing a daemon using Rust.
 
 ### maintainments
 [2019-10-18][Active] https://github.com/rust-lang/rustup.rs
@@ -104,7 +108,7 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-22][Died] https://github.com/AtheMathmo/rusty-data - Basic data handling library.
 [2019-10-22][Active] https://github.com/rust-rosetta/rust-rosetta -  https://rosettacode.org/wiki/Category:Rust. Rosetta Code is a programming chrestomathy site.
 
-### Database relatives
+### Data or Database/Datawarehouse opt relatives
 [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
 [2019-10-18][Died] https://github.com/nickel-org/nickel-postgres
 [2019-10-18][Died] https://github.com/sfackler/r2d2-postgres - A generic connection pool for Rust. 
@@ -114,6 +118,7 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-22][Active] https://github.com/rust-rocksdb/rust-rocksdb - rust wrapper for rocksdb.
 [2019-10-23][Active] https://github.com/diesel-rs/diesel - ORM. A safe, extensible ORM and Query Builder for Rust.
 [2019-10-23][Active] https://github.com/graphql-rust/juniper - GraphQL server library for Rust. *Juniper* makes it possible to write GraphQL servers in Rust that are type-safe and blazingly fast. We also try to make declaring and resolving GraphQL schemas as convenient as possible as Rust will allow.
+[2019-10-23][Active] https://github.com/sfackler/rust-phf - Compile time static maps for Rust with CHD algorithm.
 
 ### Data Format relative
 [2019-10-19][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
@@ -126,6 +131,11 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-22][Died] https://github.com/AtheMathmo/vision-rs - Access to computer vision benchmarking datasets in Rust. This library provides access to common machine learning benchmarking datasets.
 [2019-10-22][Active] https://github.com/arrayfire/arrayfire-rust - ArrayFire is a high performance library for parallel computing with an easy-to-use API. It enables users to write scientific computing code that is portable across CUDA, OpenCL and CPU devices. This project provides Rust bindings for the ArrayFire library. https://github.com/arrayfire/arrayfire: ArrayFire: a general purpose GPU library.
 [2019-10-22][Died] https://github.com/autumnai/leaf - Open Machine Intelligence Framework for Hackers. (GPU/CPU) 
+[2019-10-22][Died] https://github.com/jackm321/RustNN - RustNN is a feedforward neural network library. The library generates fully connected multi-layer artificial neural networks that are trained via backpropagation. Networks are trained using an incremental training mode.
+[2019-10-22][Died] https://github.com/jackm321/Rust_Classifier - A naive Bayes classifier crate for Rust 
+[2019-10-22][Died] https://github.com/japaric-archived/nvptx - How to: Run Rust code on your NVIDIA GPU
+[2019-10-23][Active] https://github.com/bheisler/RustaCUDA - RustaCUDA helps you bring GPU-acceleration to your projects by providing a flexible, easy-to-use interface to the CUDA GPU computing toolkit. RustaCUDA makes it easy to manage GPU memory, transfer data to and from the GPU, and load and launch compute kernels written in any language.
+[2019-10-23][Active] https://github.com/YunYang1994/ai-notebooks - reimplements articles code with tensorflow.
 
 ### InterActive with Other Programming-Language/Platform
 [2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
@@ -166,6 +176,7 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-22][Active] https://github.com/tafia/quick-protobuf - 
 [2019-10-22][Active] https://github.com/danburkert/prost - 
 [2019-10-22][Active] https://github.com/dflemstr/serde-protobuf - 
+[2019-10-23][Active] https://github.com/google/flatbuffers - FlatBuffers is a cross platform serialization library architected for maximum memory efficiency. It allows you to directly access serialized data without parsing/unpacking it first, while still having great forwards/backwards compatibility.
 
 ### Crypto
 [2019-10-18][Active] https://github.com/sfackler/rust-openssl - OpenSSL bindings for Rust.
@@ -182,6 +193,7 @@ https://github.com/dcuddeback/des_crack
 [2019-10-22][Active] https://github.com/websockets-rs/rust-websocket - 
 [2019-10-22][Active] https://github.com/iron/iron - An Extensible, Concurrent Web Framework for Rust http://ironframework.io
 [2019-10-23][Died] https://github.com/rustless/rustless - REST-like API micro-framework for Rust. Works with Iron. 
+[2019-10-23][Active] https://github.com/flosse/rust-web-framework-comparison - A comparison of some web frameworks and libs written in Rust.
 
 ### GUI/Game relatives
 [2019-10-19][Active] https://github.com/gfx-rs/gfx - A low-overhead Vulkan-like GPU API for Rust.
@@ -194,6 +206,8 @@ https://github.com/dcuddeback/des_crack
 [2019-10-20][Active] https://github.com/rust-windowing/raw-window-handle - provides a common interface that window creation libraries (e.g. Winit, SDL) can use to easily talk with graphics libraries (e.g. gfx-hal).
 [2019-10-20][Died] https://github.com/oakes/SolidOak - SolidOak is a simple IDE for Rust
 [2019-10-23][Active] https://github.com/mvdnes/rboy - A Gameboy Emulator in Rust 
+[2019-10-23][Active] https://github.com/rust-windowing/winit - Cross-platform window creation and management in Rust(js)
+[2019-10-23][Active] https://github.com/phaazon/luminance-rs - Type-safe, type-level and stateless Rust graphics framework. luminance provides an API that is, for sure, a bit less low-level — and hence, yes, it’s likely you will not have the same performances as with gfx-hal (even though no benchmarks have been done so far), and the API is not Vulkan-based — but easier to start with, especially if you don’t already have a background experience with OpenGL or Vulkan.
 
 ### UI/Console tools
 [2019-10-18][Active] https://github.com/rust-lang-nursery/mdBook compile md via Rust.
@@ -216,6 +230,7 @@ https://github.com/dcuddeback/des_crack
 ### Tools
 [2019-10-20][Active] https://github.com/servo/servo - The Servo Browser Engine https://servo.org/
 [2019-10-22][Active] https://github.com/racer-rust/racer - Rust Code Completion utility.
+[2019-10-22][Active] https://github.com/xi-editor/xi-editor - an Editor by Rust.
 
 ### IoT
 [2019-10-23][Active] https://github.com/dcuddeback/termios-rs - The termios crate provides safe bindings for the Rust programming language to the terminal I/O interface implemented by Unix operating systems.
@@ -229,6 +244,7 @@ https://github.com/dcuddeback/des_crack
 ### Blockchain
 [2019-10-22][Active] https://github.com/holochain/holochain-rust - The core Holochain framework written in rust, a container API for running it (with rust and node implementations), and hdk-rust library for writing Zomes.
 [2019-10-23][Active] https://github.com/rust-bitcoin/rust-bitcoin - Library with support for de/serialization, parsing and executing on data structures and network messages related to Bitcoin.
+[2019-10-23][Active] https://github.com/libra/libra - too well known.
 
 ### Some not relative stuff
 contribuing guide: https://github.com/nix-rust/nix/blob/master/CONTRIBUTING.md; https://github.com/rust-rosetta/rust-rosetta/blob/master/CONTRIBUTING.md
