@@ -35,6 +35,7 @@ https://github.com/cmr/this-week-in-rust - Content for this-week-in-rust.org. Ma
 [2019-10-23][Active] https://github.com/cmr/this-week-in-rust/ - https://this-week-in-rust.org/
 [2019-10-22][Active] https://github.com/dtolnay/proc-macro-workshop - This repo contains a selection of projects designed to learn to write Rust procedural macros — Rust code that generates Rust code. Procedural macros in expression position.
 [2019-10-23][Active] https://github.com/crazymykl/rust-koans -Each koan builds up your knowledge of Rust and builds upon itself. By following the failures and errors presented, you will know what to work on next. As you finish one koan file, the next will be added to path_to_enlightenment.rs.
+[2019-10-25][Active] https://docs.rs/releases - docs of Rust?
 
 Others:
 http://acm.timus.ru/help.aspx?topic=rust
@@ -60,13 +61,17 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-20][Active] https://github.com/rust-lang-nursery/rustc-pr-tracking/
 [2019-10-23][Died] https://github.com/contain-rs/cons-list - An immutable singly-linked list, as seen in basically every functional language.
 [2019-10-23][Active] https://github.com/edef1c/libfringe - libfringe is a library implementing safe, lightweight context switches, without relying on kernel services. It can be used in hosted environments (using std) as well as on bare metal (using core).
-https://github.com/rust-lang-nursery/rustfix - tips of rust language
+https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read and apply the suggestions made by rustc.
+
+### Design Pattern
+[2019-10-25][Active] https://github.com/rust-lang-nursery/lazy-static.rs - it is possible to have statics that require code to be executed at runtime in order to be initialized. This includes anything requiring heap allocations, like vectors or hash maps, as well as anything that requires non-const function calls to be computed.
 
 ### Log
 [2019-10-18][Active] https://github.com/sfackler/log4rs
 [2019-10-18][Active] https://github.com/rust-lang-nursery/log - A Rust library providing a lightweight logging facade.
 [2019-10-22][Active] https://github.com/seanmonstar/pretty-env-logger - A simple logger built on top off env_logger(https://docs.rs/env_logger/0.7.1/env_logger/). It is configured via an environment variable and writes to standard error with nice colored output for log levels.
 [2019-10-22][Active] https://github.com/tokio-rs/tracing - Application level tracing for Rust. https://tokio.rs. is a framework for instrumenting Rust programs to collect structured, event-based diagnostic information. 
+[2019-10-22][Active] https://github.com/rust-lang/rust-log-analyzer - Analyzing Travis and Azure Pipelines logs to find encountered errors.The Rust Log Analyzer (RLA) is a tool that analyzes the CI build logs of the rust-lang/rust repository with the purpose of automatically extracting error messages from failed builds.
 
 ### Async & Parallel computing
 [2019-10-18][Active] https://github.com/Matthias247/futures-intrusive
@@ -81,6 +86,8 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 
 ### Test
 [2019-10-22][Active] https://github.com/crossbario/autobahn-testsuite - used by 
+[2019-10-23][Active] https://github.com/BurntSushi/quickcheck - QuickCheck is a way to do property based testing using randomly generated input. This crate comes with the ability to randomly generate and shrink integers, floats, tuples, booleans, lists, strings, options and results. All QuickCheck needs is a property function—it will then randomly generate inputs to that function and call the property for each set of inputs. If the property fails (whether by a runtime error like index out-of-bounds or by not satisfying your property), the inputs are "shrunk" to find a smaller counter-example.
+[2019-10-23][Active] https://github.com/mitsuhiko/rust-incidents - This library provides an experiment for error handling in Rust. It provides efficient error handling and provides powerful debugging features.
 
 ### System & IO
 [2019-10-22][Active] https://github.com/tokio-rs/mio - Mio is a lightweight I/O library for Rust with a focus on adding as little overhead as possible over the OS abstractions.
@@ -90,13 +97,17 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-23][Active] https://github.com/tsgates/rust.ko - A minimal Linux kernel module written in rust. 
 [2019-10-23][Active] https://github.com/BurntSushi/ripgrep - ripgrep recursively searches directories for a regex pattern
 [2019-10-23][Died] https://github.com/jwilm/rust_daemon_template - This is a template for writing a daemon using Rust.
+[2019-10-23][Active] https://github.com/CraneStation/cranelift - Generates target binary code giving c language?
 
-### maintainments
+### CI or maintainments
 [2019-10-18][Active] https://github.com/rust-lang/rustup.rs
 [2019-10-18][Active] https://github.com/chyh1990/yaml-rust
 [2019-10-18][Active] https://github.com/crossbeam-rs/rfcs - There is a RPC process and templates I could ref for my own.
 [2019-10-22][Active] https://github.com/nix-rust/nix - Rust friendly bindings to nix APIs. ref: https://github.com/NixOS/nixpkgs (Nix Packages collection)
 [2019-10-23][Active] https://github.com/rust-lang/git2-rs - git2-rs works with stable Rust, and typically works with the most recent prior stable release as well. Check the MSRV job of the CI script to see the oldest version of Rust known to pass tests.
+[2019-10-22][Active] https://github.com/mre/idiomatic-rust - A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust. 
+[2019-10-25][Active] https://github.com/mgeisler/version-sync - Rust projects typically reference the crate version number in several places, such as the README.md file. The version-sync crate makes it easy to add an integration test that checks that README.md is updated when the crate version changes.
+[2019-10-25][Active] - docs.rs — Automatic documentation generation of crates
 
 ### Algorithms
 [2019-10-18][Died] https://github.com/TheAlgorithms/Rust - the algorthm list is useful. Python/C algorithms are good ref.
@@ -107,6 +118,10 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-22][Active] https://github.com/rust-ndarray/ndarray - ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations https://docs.rs/ndarray/
 [2019-10-22][Died] https://github.com/AtheMathmo/rusty-data - Basic data handling library.
 [2019-10-22][Active] https://github.com/rust-rosetta/rust-rosetta -  https://rosettacode.org/wiki/Category:Rust. Rosetta Code is a programming chrestomathy site.
+[2019-10-25][Active] https://github.com/petgraph/fixedbitset - https://github.com/petgraph/fixedbitset
+[2019-10-25][Active] https://github.com/petgraph/petgraph - Graph data structure library. Known to support Rust 1.37 and later. It implements many graph algoithms.
+[2019-10-25][died] https://github.com/eternaleye/rust-critbit - A crit bit tree, also known as a Binary Patricia Trie is a trie (https://en.wikipedia.org/wiki/Trie), also called digital tree and sometimes radix tree or prefix tree (as they can be searched by prefixes), is an ordered tree data structure that is used to store a dynamic set or associative array where the keys are usually strings. Unlike a binary search tree, no node in the tree stores the key associated with that node; instead, its position in the tree defines the key with which it is associated. more ref: https://github.com/jfager/functional-critbit, also http://cr.yp.to/critbit.html
+
 
 ### Data or Database/Datawarehouse opt relatives
 [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
@@ -143,6 +158,7 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-19][Active] https://github.com/eqrion/cbindgen - A project for generating C bindings from Rust code.
 [2019-10-22][Active] https://github.com/rust-lang/libc - Raw bindings to platform APIs for Rust. libc provides all of the definitions necessary to easily interoperate with C code (or "C-like" code) on each of the platforms that Rust supports. This includes type definitions (e.g. c_int), constants (e.g. EINVAL) as well as function headers (e.g. malloc).
 [2019-10-23][Active] https://github.com/dgrunwald/rust-cpython - Rust bindings for the python interpreter.
+[2019-10-25][Died] https://github.com/blas-lapack-rs/lapack-sys - Bindings to LAPACK (Fortran) 
 
 ### Middleware relatives
 [2019-10-18][Active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
@@ -177,6 +193,7 @@ https://github.com/rust-lang-nursery/rustfix - tips of rust language
 [2019-10-22][Active] https://github.com/danburkert/prost - 
 [2019-10-22][Active] https://github.com/dflemstr/serde-protobuf - 
 [2019-10-23][Active] https://github.com/google/flatbuffers - FlatBuffers is a cross platform serialization library architected for maximum memory efficiency. It allows you to directly access serialized data without parsing/unpacking it first, while still having great forwards/backwards compatibility.
+[2019-10-23][Active] https://github.com/mvdnes/zip-rs - Zip implementation in Rust.
 
 ### Crypto
 [2019-10-18][Active] https://github.com/sfackler/rust-openssl - OpenSSL bindings for Rust.
@@ -194,6 +211,7 @@ https://github.com/dcuddeback/des_crack
 [2019-10-22][Active] https://github.com/iron/iron - An Extensible, Concurrent Web Framework for Rust http://ironframework.io
 [2019-10-23][Died] https://github.com/rustless/rustless - REST-like API micro-framework for Rust. Works with Iron. 
 [2019-10-23][Active] https://github.com/flosse/rust-web-framework-comparison - A comparison of some web frameworks and libs written in Rust.
+[2019-10-23][Active] https://github.com/servo/rust-mozjs - Rust bindings to SpiderMonkey, which is the code name for the first JavaScript engine, written by Brendan Eich at Netscape Communications, later released as open-source and currently maintained by the Mozilla Foundation. 
 
 ### GUI/Game relatives
 [2019-10-19][Active] https://github.com/gfx-rs/gfx - A low-overhead Vulkan-like GPU API for Rust.
