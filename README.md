@@ -19,6 +19,8 @@ https://crates.io/ - full list of crates.
 https://github.com/rust-windowing/winit/wiki/Missing-features-provided-by-other-crates - About GUI.
 https://github.com/rust-lang-nursery - baby rust projects.
 https://github.com/cmr/this-week-in-rust - Content for this-week-in-rust.org. Made available under CC-BY-SA.
+https://github.com/mre/awesome-static-analysis - This is a collection of static analysis tools and code quality checkers.
+https://github.com/mre/awesome-dynamic-analysis - A curated list of dynamic analysis tools for various programming languages.
 
 ## Okey, Now the list
 
@@ -37,7 +39,12 @@ https://github.com/cmr/this-week-in-rust - Content for this-week-in-rust.org. Ma
 [2019-10-23][Active] https://github.com/crazymykl/rust-koans -Each koan builds up your knowledge of Rust and builds upon itself. By following the failures and errors presented, you will know what to work on next. As you finish one koan file, the next will be added to path_to_enlightenment.rs.
 [2019-10-25][Active] https://docs.rs/releases - docs of Rust?
 [2019-10-25][Active] https://github.com/BurntSushi/rust-error-handling-case-study - Code for the case study in my blog post: http://blog.burntsushi.net/rust-error-handling
+[2019-10-25][Active] https://github.com/pepsighan/rust-web-developer-roadmap - Below you can find a chart demonstrating the path you may take and the libraries you may require to become a Rust Web Developer. This chart is made with inspiration from Golang Developer Roadmap(https://github.com/Alikhll/golang-developer-roadmap/).
 [2019-10-25][Active] http://arewegameyet.com/ - doc/games code/tutorials of game programming
+[2019-10-25][Active] https://erwabook.com/intro/ - Introduction to Rust Web Applications. https://gitlab.com/bstpierre/irwa
+[2019-10-27][Active] https://github.com/japaric/rust-cross - Everything you need to know about cross compiling Rust programs!
+[2019-10-27][Active] https://github.com/mre/idiomatic-rust - A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust. https://github.com/mre/idiomatic-rust/blob/master/CONTRIBUTING.md
+[2019-10-27][Active] https://github.com/bluss/rustfaq - The supplementary Rust FAQ is intended to be extensive, answer questions that are often encountered, and being simple to update. also: https://www.rust-lang.org/en-US/faq.html
 
 Others:
 http://acm.timus.ru/help.aspx?topic=rust
@@ -59,16 +66,27 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-22][Active] https://github.com/seanmonstar/try-lock - A light-weight lock guarded by an atomic boolean.
 [2019-10-22][Active] https://github.com/dtolnay/anyhow - A better Box<dyn Error> 
 [2019-10-22][Active] https://github.com/BurntSushi/ripgrep - ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern. 
+[2019-10-22][Active] https://github.com/rust-lang/regex - An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs. https://docs.rs/regex.
 [2019-10-20][Active] https://github.com/rust-lang-nursery/error-chain - take full advantage of Rust's error handling features without the overhead of maintaining boilerplate error types and conversions. It implements an opinionated strategy for defining your own error types, as well as conversions from others' error types.
 [2019-10-20][Active] https://github.com/rust-lang-nursery/rustc-pr-tracking/
 [2019-10-23][Died] https://github.com/contain-rs/cons-list - An immutable singly-linked list, as seen in basically every functional language.
 [2019-10-23][Active] https://github.com/edef1c/libfringe - libfringe is a library implementing safe, lightweight context switches, without relying on kernel services. It can be used in hosted environments (using std) as well as on bare metal (using core).
-https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read and apply the suggestions made by rustc.
+[2019-10-23][Active] https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read and apply the suggestions made by rustc.
+[2019-10-23][Active] https://github.com/Keats/validator - validation of ORM/ODM/framework-agnostic objects.
+[2019-10-27][Active] https://github.com/bluss/indexmap - A safe, pure-Rust hash table which preserves (in a limited sense) insertion order. This was inspired by Python 3.6's new dict implementation (which remembers the insertion order and is fast to iterate, and is compact in memory).
+[2019-10-27][Active] https://github.com/bluss/fast-floats - Experimental (unstable) “fast-math” wrappers for f32, f64.
+[2019-10-27][Active] https://github.com/bluss/matrixmultiply - General matrix multiplication of f32 and f64 matrices in Rust. Supports matrices with general strides.
+[2019-10-27][Active] https://github.com/bluss/rawpointer - Extra methods for raw pointers.
+[2019-10-27][Active] https://github.com/bluss/defmac - A macro to define lambda-like macros inline.
+[2019-10-27][Active] https://github.com/bluss/maplit - Rust container / collection literal macros for HashMap, HashSet, BTreeMap, BTreeSet.
+
 
 ### Design Pattern
 [2019-10-25][Active] https://github.com/rust-lang-nursery/lazy-static.rs - it is possible to have statics that require code to be executed at runtime in order to be initialized. This includes anything requiring heap allocations, like vectors or hash maps, as well as anything that requires non-const function calls to be computed.
 [2019-10-25][Active] https://github.com/dtolnay/objekt - his crate provides a Clone trait that can be used in trait objects, and a clone_box function that can clone any sized or dynamically sized implementation of Clone. Types that implement the standard library's std::clone::Clone trait are automatically usable this way. more with: https://github.com/kardeiz/objekt-clonable
 [2019-10-25][Active] https://github.com/dtolnay/ghost - This crate provides a #[phantom] attribute that makes it possible to define unit structs with generic parameters. ref: https://doc.rust-lang.org/std/marker/struct.PhantomData.html
+[2019-10-25][Active] https://github.com/riker-rs/riker - Easily build efficient, highly concurrent and resilient applications. An Actor Framework for Rust.
+[2019-10-25][Died] https://github.com/huytd/mvvm-rs - MVVM Pattern Implementation in Rust 
 
 ### Log
 [2019-10-18][Active] https://github.com/sfackler/log4rs
@@ -87,11 +105,23 @@ https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read 
 [2019-10-23][Active] https://github.com/rayon-rs/rayon - A data parallelism library. Rayon is a data-parallelism library for Rust. It is extremely lightweight and makes it easy to convert a sequential computation into a parallel one. It also guarantees data-race freedom. (You may also enjoy this blog post about Rayon, which gives more background and details about how it works, or this video, from the Rust Belt Rust conference.) Rayon is available on crates.io, and API Documentation is available on docs.rs.
 [2019-10-23][Active] https://github.com/wez/cancel-rs - This crate provides a simple token that can be used to co-operatively manage cancellation of an operation. Setting a deadline/timeout is also supported.
 [2019-10-23][Died] https://github.com/dgrunwald/rust-cancellation - CancellationToken for composable cancellation in Rust.
+[2019-10-27][Active] https://gitlab.com/jD91mZM2/xidlehook - xidlehook(https://linux.die.net/man/1/xautolock) is a general-purpose replacement for xautolock. It executes a command when the computer has been idle for a specified amount of time. 
+[2019-10-27][Active] https://gitlab.redox-os.org/redox-os/parallel or https://github.com/mmstick/parallel - Redox's Parallel. This is an attempt at recreating the functionality of GNU Parallel, a work-stealer for the command-line, in Rust under a MIT license. The end goal will be to support much of the functionality of GNU Parallel and then to extend the functionality further for the next generation of command-line utilities written in Rust. While functionality is important, with the application being developed in Rust, the goal is to also be as fast and efficient as possible.
 
 ### Test
 [2019-10-22][Active] https://github.com/crossbario/autobahn-testsuite - used by 
 [2019-10-23][Active] https://github.com/BurntSushi/quickcheck - QuickCheck is a way to do property based testing using randomly generated input. This crate comes with the ability to randomly generate and shrink integers, floats, tuples, booleans, lists, strings, options and results. All QuickCheck needs is a property function—it will then randomly generate inputs to that function and call the property for each set of inputs. If the property fails (whether by a runtime error like index out-of-bounds or by not satisfying your property), the inputs are "shrunk" to find a smaller counter-example.
 [2019-10-23][Active] https://github.com/mitsuhiko/rust-incidents - This library provides an experiment for error handling in Rust. It provides efficient error handling and provides powerful debugging features.
+[2019-10-25][Active] https://github.com/BurntSushi/critcmp - A command line tool for comparing benchmarks run by Criterion benchmark harness. 
+[2019-10-25][Active] https://github.com/bheisler/criterion.rs - Criterion.rs helps you write fast code by detecting and measuring performance improvements or regressions, even small ones, quickly and accurately. You can optimize with confidence, knowing how each change affects the performance of your code.
+[2019-10-27][Active] https://github.com/ObliqueMotion/rust-criterion-template - A template for writing benchmarks in Rust Crierion.
+[2019-10-25][Active] https://github.com/fcsonline/drill - Drill is a HTTP load testing application written in Rust. The main goal for this project is to build a really lightweight tool as alternative to other that require JVM and other stuff. You can write brenchmark files, in YAML format, describing all the stuff you want to test. It was inspired by Ansible(https://docs.ansible.com/ansible/playbooks_intro.html) syntax because it is really easy to use and extend.
+[2019-10-27][Active] https://github.com/BurntSushi/quickcheck - QuickCheck is a way to do property based testing using randomly generated input. This crate comes with the ability to randomly generate and shrink integers, floats, tuples, booleans, lists, strings, options and results. It should be the same strategy used in Koen Claessen's QuickCheck for Haskell.
+[2019-10-27][Active] https://github.com/petertseng/exercism-rust https://github.com/exercism/rust - At the most basic level, Exercism is all about the tests. You can read more about how we think about test suites in the Exercism documentation.
+[2019-10-27][Died] https://github.com/nikomatsakis/rust-runtime-benchmarks - Some benchmarks for testing rustc performance. 
+
+
+It was inspired by Ansible syntax because it is really easy to use and extend.
 
 ### System & IO
 [2019-10-22][Active] https://github.com/tokio-rs/mio - Mio is a lightweight I/O library for Rust with a focus on adding as little overhead as possible over the OS abstractions.
@@ -101,11 +131,20 @@ https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read 
 [2019-10-23][Active] https://github.com/tsgates/rust.ko - A minimal Linux kernel module written in rust. 
 [2019-10-23][Active] https://github.com/BurntSushi/ripgrep - ripgrep recursively searches directories for a regex pattern
 [2019-10-23][Died] https://github.com/jwilm/rust_daemon_template - This is a template for writing a daemon using Rust.
+[2019-10-25][Died] https://github.com/BurntSushi/rust-pcre2 - A high level Rust wrapper library for PCRE2 (Perl Compatible Regular Expressions:https://www.pcre.org/).
 [2019-10-23][Active] https://github.com/CraneStation/cranelift - Generates target binary code giving c language?
 [2019-10-25][Active] https://github.com/uutils/platform-info - A cross-platform way to get information about your machine.
 [2019-10-25][Active] https://github.com/uutils/findutils - Rust implementation of GNU findutils.https://www.gnu.org/software/findutils/
 [2019-10-25][Active] https://github.com/uutils/coreutils - Cross-platform Rust rewrite of the GNU coreutils. uutils is an attempt at writing universal (as in cross-platform) CLI utils in Rust. This repo is to aggregate the GNU coreutils rewrites.
 [2019-10-25][Active] https://github.com/uutils/uucore - uucore is a collection of code used by various uutils projects. Currently, almost all of the code is used by uutils/coreutils. In the future, much of this repository may be supplanted by smaller, more focused repositories/crates.
+[2019-10-25][Active] https://github.com/BurntSushi/rust-memchr - The memchr crate provides heavily optimized routines for searching bytes. range from manually tuned Assembly implementations (like that found in GNU's libc) all the way to non-vectorized C implementations (like that found in MUSL).
+[2019-10-25][Active] https://github.com/BurntSushi/walkdir - A cross platform Rust library for efficiently walking a directory recursively. Comes with support for following symbolic links, controlling the number of open file descriptors and efficient mechanisms for pruning the entries in the directory tree.
+[2019-10-27][Active] https://github.com/das-labor/panopticon - A libre program analysis library for machine code. moved to https://gitlab.com/p8n/panopticon. see also https://gitlab.com/p8n/verso
+[2019-10-27][Active] https://gitlab.com/huia-lang/stack-vm - A generic, reusable, stack-based virtual machine for Rust.
+[2019-10-27][Active] https://github.com/darfink/detour-rs - This is a cross-platform detour library developed in Rust. Beyond the basic functionality, this library handles branch redirects, RIP-relative instructions, hot-patching, NOP-padded functions, and allows the original function to be called using a trampoline whilst hooked.
+[2019-10-27][Active] https://github.com/darfink/region-rs - A Rust library for dealing with memory regions. It is implemented using platform specific APIs (e.g VirtualQuery, VirtualLock, mprotect, mlock). Supports: Windows, Linux & Android, macOS & iOS and FreeBSD.
+[2019-10-27][Active] https://github.com/Amanieu/thread_local-rs - This library provides the ThreadLocal and CachedThreadLocal types which allow a separate copy of an object to be used for each thread. This allows for per-object thread-local storage, unlike the standard library's thread_local! macro which only allows static thread-local storage.
+[2019-10-27][Active] https://github.com/danburkert/memmap-rs - cross-platform Rust API for memory mapped IO 
 
 ### CI or maintainments
 [2019-10-18][Active] https://github.com/rust-lang/rustup.rs
@@ -115,12 +154,18 @@ https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read 
 [2019-10-23][Active] https://github.com/rust-lang/git2-rs - git2-rs works with stable Rust, and typically works with the most recent prior stable release as well. Check the MSRV job of the CI script to see the oldest version of Rust known to pass tests.
 [2019-10-22][Active] https://github.com/mre/idiomatic-rust - A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust. 
 [2019-10-25][Active] https://github.com/mgeisler/version-sync - Rust projects typically reference the crate version number in several places, such as the README.md file. The version-sync crate makes it easy to add an integration test that checks that README.md is updated when the crate version changes.
-[2019-10-25][Active] - docs.rs — Automatic documentation generation of crates
-[2019-10-25][Active] - https://github.com/dtolnay/no-panic - 
-[2019-10-25][Active] - https://github.com/dtolnay/automod - Pull in every source file in a directory as a module and test them.
+[2019-10-25][Active] docs.rs — Automatic documentation generation of crates
+[2019-10-25][Active] https://github.com/dtolnay/no-panic - 
+[2019-10-26][Active] https://github.com/tree-sitter/tree-sitter - Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited.
+[2019-10-25][Active] https://github.com/dtolnay/automod - Pull in every source file in a directory as a module and test them.
+[2019-10-25][Active] https://github.com/buildfoundation/mainframer - Tool for remote builds. Sync project to remote machine, execute command, sync back.
+
+### contest 
+[2019-10-27][Died] https://github.com/petertseng/adventofcode-rs-2015 - 
+[2019-10-27][Died] https://github.com/BurntSushi/advent-of-code - aoc 2018 in rust. https://adventofcode.com/ 
 
 ### Algorithms
-[2019-10-18][Died] https://github.com/TheAlgorithms/Rust - the algorthm list is useful. Python/C algorithms are good ref.
+[2019-10-18][Died] https://github.com/TheAlgorithms/Rust - the algorthm list is useful. Python/C algorithms are good ref. All algorithms implemented in Rust (for educational purposes). These are for demonstration purposes only.
 [2019-10-18][Active] https://github.com/reem/rust-ordered-float
 [2019-10-18][Active] ttps://github.com/rust-random/rand
 [2019-10-22][Active] https://github.com/EbTech/rust-algorithms - Common data structures and algorithms in Rust. Contest Algorithms in Rust.
@@ -137,8 +182,14 @@ https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read 
 [2019-10-25][Active] https://github.com/tantivy-search/bitpacking - This crate is a Rust port of Daniel Lemire's simdcomp C library.
 [2019-10-25][Active] https://github.com/BurntSushi/rust-snappy - A pure Rust implementation of the Snappy compression algorithm. Includes streaming compression and decompression using the Snappy frame format. This implementation is ported from both the reference C++ implementation and the Go implementation. http://google.github.io/snappy/
 [2019-10-25][Active] https://github.com/BurntSushi/regex-automata - A low level regular expression library that uses deterministic finite automata. It supports a rich syntax with Unicode support, has extensive options for configuring the best space vs time trade off for your use case and provides support for cheap deserialization of automata for use in no_std environments.
+[2019-10-25][Active] https://github.com/BurntSushi/aho-corasick - A library for finding occurrences of many patterns at once with SIMD acceleration in some cases. This library provides multiple pattern search principally through an implementation of the Aho-Corasick algorithm, which builds a finite state machine for executing searches in linear time. Features include case insensitive matching, overlapping matches and search & replace in streams. https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm
+[2019-10-25][Active] https://github.com/bheisler/criterion.rs - Criterion.rs helps you write fast code by detecting and measuring performance improvements or regressions, even small ones, quickly and accurately. You can optimize with confidence, knowing how each change affects the performance of your code.
+[2019-10-27][Died] https://github.com/BurntSushi/rust-stats - An experimental library that provides some common statistical functions with some support for computing them efficiently on streams of data. The intent is to permit parallel computation of statistics on large data sets.
+[2019-10-27][Died] https://github.com/BurntSushi/suffix - Fast linear time & space suffix arrays for Rust. Supports Unicode! The big thing missing at the moment is a generalized suffix array. I started out with the intention to build them into the construction algorithm, but this has proved more difficult than I thought.
+[2019-10-27][Died] https://github.com/BurntSushi/rust-sorts - A comparison of different sort algorithms in Rust. This includes mergesort, quicksort, heapsort, insertion sort, selection sort, bubble sort and even bogo sort. The library comes with benchmarks for vectors of different sizes and for vectors that are already sorted or vectors where all elements are equivalent. This library also comes with QuickCheck tests that check whether the result of a sorting algorithm is sorted. Each algorithm is also checked that it is stable/unstable depending on the algorithm used. This is pre-rust 1.0 code. A majority of it will not compile or otherwise work in modern Rust.
+[2019-10-27][Died] https://github.com/BurntSushi/rust-decimal - A Decimal Implementation written in pure Rust suitable for financial calculations. 
 
-### Data or Database/Datawarehouse opt relatives
+### Data, Data opt/etl or Database/Datawarehouse opt relatives
 [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
 [2019-10-18][Died] https://github.com/nickel-org/nickel-postgres
 [2019-10-18][Died] https://github.com/sfackler/r2d2-postgres - A generic connection pool for Rust. 
@@ -152,7 +203,9 @@ https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read 
 [2019-10-25][Active] https://github.com/steffengy/tiberius - TDS 7.4 (mssql / Microsoft SQL Server) async driver for rust.
 [2019-10-25][Active] https://github.com/That3Percent/soa-vec - Soa2, Soa3, ..SoaN are generic collections with an API similar to that of a Vec of tuples but which store the data laid out as a separate slice per field. The advantage of this layout is that when iterating over the data only a subset need be loaded from RAM. This approach is common to game engines, and entity component systems in particular but is applicable anywhere that cache coherency and memory bandwidth are important for performance.
 [2019-10-25][Active] https://github.com/tantivy-search/tantivy - Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust. It is closer to Apache Lucene than to Elasticsearch or Apache Solr in the sense it is not an off-the-shelf search engine server, but rather a crate that can be used to build such a search engine.
+[2019-10-27][Active] https://github.com/tantivy-search/tantivy-cli - tantivy-cli is the project hosting the command line interface for tantivy, a search engine project.
 [2019-10-25][Active] https://github.com/BurntSushi/fst - This crate provides a fast implementation of ordered sets and maps using finite state machines. In particular, it makes use of finite state transducers to map keys to values as the machine is executed. Using finite state machines as data structures enables us to store keys in a compact format that is also easily searchable. For example, this crate leverages memory maps to make range queries very fast.
+[2019-10-27][Active] https://github.com/TimelyDataflow/timely-dataflow - Timely dataflow is a low-latency cyclic dataflow computational model, introduced in the paper Naiad: a timely dataflow system. This project is an extended and more modular implementation of timely dataflow in Rust.
 
 ### Data Format relative
 [2019-10-19][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
@@ -170,6 +223,7 @@ https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read 
 [2019-10-22][Died] https://github.com/japaric-archived/nvptx - How to: Run Rust code on your NVIDIA GPU
 [2019-10-23][Active] https://github.com/bheisler/RustaCUDA - RustaCUDA helps you bring GPU-acceleration to your projects by providing a flexible, easy-to-use interface to the CUDA GPU computing toolkit. RustaCUDA makes it easy to manage GPU memory, transfer data to and from the GPU, and load and launch compute kernels written in any language.
 [2019-10-23][Active] https://github.com/YunYang1994/ai-notebooks - reimplements articles code with tensorflow.
+[2019-10-25][Active] https://github.com/jJimo/rust-bloomfilter - A bloom filter implementation in Rust, using mixing hash function and XXHASH （https://github.com/Cyan4973/xxHash）
 
 ### InterActive with Other Programming-Language/Platform
 [2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
@@ -180,10 +234,15 @@ https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read 
 [2019-10-25][Died] https://github.com/blas-lapack-rs/lapack-sys - Bindings to LAPACK (Fortran) 
 [2019-10-25][Active] https://github.com/indygreg/PyOxidizer - PyOxidizer is a utility for producing binaries that embed Python. The over-arching goal of PyOxidizer is to make complex packaging and distribution problems simple so application maintainers can focus on building applications instead of toiling with build systems and packaging tools.
 [2019-10-25][Active] https://github.com/yorkie/rust.js - Run your JavaScript apps backed by Rust. The platform lets you can work with Rust, C, C++ and JavaScript compatible with NPM and Cargo
+[2019-10-25][Active] https://github.com/google/rustcxx - rustcxx is a tool allowing C++ to be used from a Rust project easily. It works by allowing snippets of C++ to be included within a Rust function, and vice-versa.
+[2019-10-25][Active] https://github.com/mystor/rust-cpp - Embed C++ directly inside your rust code!
+[2019-10-25][Active] https://github.com/darfink/chakracore-rs#chakracore-sys - This library handles the static and dynamic linking of the JavaScript Runtime. The rust bindings are generated (on the fly) for the interface, therefore the entire API is exposed and accessable.
+[2019-10-27][Active] https://github.com/That3Percent/js-object - A macro for creating JavaScript objects.
 
 ### Middleware relatives
 [2019-10-18][Active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
-[2019-10-18][Active] https://github.com/crossbeam-rs/crossbeam - Tools for concurrent programming in Rust, RPC, PIPE, SYNC and etc.
+[2019-10-18][Active] https://github.com/crossbeam-rs/crossbeam - Tools for concurrent programming in Rust, RPC, PIPE, SYNC and etc. 
+[2019-10-25][Active] https://github.com/jean-airoldie/libzmq-rs - This crate builds and generates bindings from source. This means that you do not need to install libzmq. we will only use a subset of libzmq. If you'd rather have a complete port, check out rust-zmq. (https://github.com/erickt/rust-zmq)
 
 ### Networking
 [2019-10-18][Active] https://github.com/sfackler/rust-socks
@@ -226,7 +285,9 @@ https://github.com/rust-lang-nursery/rustfix - The goal of this tool is to read 
 [2019-10-22][Died] https://github.com/DaGenix/rust-crypto - A (mostly) pure-Rust implementation of various cryptographic algorithms. 
 [2019-10-23][Active] https://github.com/jedisct1/libhydrogen - A lightweight, secure, easy-to-use crypto library suitable for constrained environments. https://libhydrogen.org
 [2019-10-23][Active] https://github.com/sodiumoxide/sodiumoxide - Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API. Sodium Oxide: Fast cryptographic library for Rust (bindings to libsodium) 
-https://github.com/dcuddeback/des_crack
+[2019-10-23][Died] https://github.com/dcuddeback/des_crack
+[2019-10-26][Active] https://github.com/sekey/sekey - Use Touch ID / Secure Enclave for SSH Authentication!
+[2019-10-27][Active] https://github.com/mesalock-linux/mesalink - MesaLink is a memory-safe and OpenSSL-compatible TLS library. MesaLink has been in production at Baidu with >10 million monthly active users. website: https://mesalink.io.
 
 ### Servers (WEB, middle layer, microserive and etc.)
 [2019-10-18][Active] https://github.com/nickel-org/nickel.rs
@@ -240,6 +301,8 @@ https://github.com/dcuddeback/des_crack
 [2019-10-25][Active] https://github.com/mit-pdos/noria - Noria is a new streaming data-flow system designed to act as a fast storage backend for read-heavy web applications based on this paper from OSDI'18. It acts like a database, but precomputes and caches relational query results so that reads are blazingly fast. Noria automatically keeps cached results up-to-date as the underlying data, stored in persistent base tables, change. Noria uses partially-stateful data-flow to reduce memory overhead, and supports dynamic, runtime data-flow and query change.
 [2019-10-25][Active] https://github.com/tailhook/vagga - Vagga is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.Runs containerized process as a child of current shell, no attach/detach hell;Images are automatically rebuilt and versioned;Fully userspace containers, no need for elevated privileges like for Docker;Running programs in linux containers (not a full virtualization like Vagrant);manage trees of processes (so you run your redis-python-nginx server with one command);Compatibility with Vagrant-LXC and Docker_. ref: https://vagga.readthedocs.org/
 [2019-10-25][Active] https://github.com/Keats/tera - A template engine for Rust based on Jinja2/Django https://tera.netlify.com/
+[2019-10-25][Active] https://github.com/pepsighan/rust-web-developer-roadmap - Below you can find a chart demonstrating the path you may take and the libraries you may require to become a Rust Web Developer. This chart is made with inspiration from Golang Developer Roadmap(https://github.com/Alikhll/golang-developer-roadmap/).
+[2019-10-27][Active] https://github.com/nickel-org/nickel.rs - An expressjs inspired web framework for Rust http://nickel-org.github.io/
 
 ### GUI/Game relatives
 [2019-10-19][Active] https://github.com/gfx-rs/gfx - A low-overhead Vulkan-like GPU API for Rust.
@@ -255,6 +318,9 @@ https://github.com/dcuddeback/des_crack
 [2019-10-23][Active] https://github.com/rust-windowing/winit - Cross-platform window creation and management in Rust(js)
 [2019-10-23][Active] https://github.com/phaazon/luminance-rs - Type-safe, type-level and stateless Rust graphics framework. luminance provides an API that is, for sure, a bit less low-level — and hence, yes, it’s likely you will not have the same performances as with gfx-hal (even though no benchmarks have been done so far), and the API is not Vulkan-based — but easier to start with, especially if you don’t already have a background experience with OpenGL or Vulkan.
 
+### Web UI
+[2019-10-27][Active] https://github.com/ritz078/transform - A polyglot web converter. https://transform.tools
+
 ### UI/Console tools
 [2019-10-18][Active] https://github.com/rust-lang-nursery/mdBook compile md via Rust.
 [2019-10-19][Active] https://github.com/lotabout/skim  navigate files, lines, commands. It is a general fuzzy finder that saves you time.
@@ -262,6 +328,7 @@ https://github.com/dcuddeback/des_crack
 [2019-10-25][Active] https://github.com/huytd/kanelm - Kanelm - Kanban Board in Elm.
 [2019-10-25][Died] https://github.com/huytd/kanban-app - This is a web-based Kanban board application, built with Elm and Rust. The only different from this application and hundred thousands of web-based application out there is: We don't need Electron!.
 [2019-10-25][Died] https://github.com/huytd/hackernews-rss-reader - Yet another HackerNews client. Live demo https://codedaily.xyz.
+[2019-10-25][Active] https://github.com/vadimcn/vscode-lldb - Native debugger extension for VSCode based on LLDB. Supports c++,rust and python.
 
 ### Multi-media
 [2019-10-19][Active] https://github.com/jeremyletang/rust-sfml - A gent to Simple and Fast Multimedia Library(SFML) - https://www.sfml-dev.org/
@@ -280,6 +347,7 @@ https://github.com/dcuddeback/des_crack
 [2019-10-20][Active] https://github.com/servo/servo - The Servo Browser Engine https://servo.org/
 [2019-10-22][Active] https://github.com/racer-rust/racer - Rust Code Completion utility.
 [2019-10-22][Active] https://github.com/xi-editor/xi-editor - an Editor by Rust.
+[2019-10-22][Active] https://github.com/clap-rs/clap - A full featured, fast Command Line Argument Parser for Rust https://clap.rs.
 
 ### IoT
 [2019-10-23][Active] https://github.com/dcuddeback/termios-rs - The termios crate provides safe bindings for the Rust programming language to the terminal I/O interface implemented by Unix operating systems.
@@ -289,11 +357,14 @@ https://github.com/dcuddeback/des_crack
 ### Others
 [2019-10-19][Active] https://github.com/dtolnay/syn - Parser for Rust source code.
 [2019-10-23][Active] https://github.com/kevinmehall/rust-peg - rust-peg is a simple yet flexible parser generator based on the Parsing Expression Grammar formalism. It provides a Rust macro that builds a recursive descent parser from a concise definition of the grammar.
+[2019-10-23][Active] https://github.com/mtojek/ohlavpn - Find working VPN proxy all over the world. Use Hola VPN API to grab a list of fast VPN proxy servers all over the world. Use the IP-API endpoint to check their geolocation and owners (mind the service limits).
 
 ### Blockchain
 [2019-10-22][Active] https://github.com/holochain/holochain-rust - The core Holochain framework written in rust, a container API for running it (with rust and node implementations), and hdk-rust library for writing Zomes.
 [2019-10-23][Active] https://github.com/rust-bitcoin/rust-bitcoin - Library with support for de/serialization, parsing and executing on data structures and network messages related to Bitcoin.
 [2019-10-23][Active] https://github.com/libra/libra - too well known.
+[2019-10-7][Active] https://github.com/paritytech/trie - A generic implementation of the Base-16 Modified Merkle Tree ("Trie") data structure: Trie DB (trie-db crate) and Trie Hash (trie-hash crate). explanation： https://zhuanlan.zhihu.com/p/46702178
+[2019-10-7][Active] https://github.com/tafia/quick-patricia-trie - A toy implementation of a (merkle)patricia tree as used in ethereum. The implementation is strongly inspired by parity patricia-trie. This is a total reimplementation from scratch so there are numerous differences.
 
 ### Some not relative stuff
 contribuing guide: https://github.com/nix-rust/nix/blob/master/CONTRIBUTING.md; https://github.com/rust-rosetta/rust-rosetta/blob/master/CONTRIBUTING.md
@@ -319,6 +390,8 @@ https://github.com/libp2p
 https://github.com/dgrunwald
 https://github.com/huytd
 https://github.com/BurntSushi
+https://github.com/mre
+https://github.com/bluss - I work on Rust, I teach Rust.
 
 ## Other relative stuff
 https://github.com/crossbario - Seamless connectivity for the IoT and real-time microservices.  https://crossbar.io
