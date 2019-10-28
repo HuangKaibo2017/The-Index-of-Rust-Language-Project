@@ -22,6 +22,7 @@ https://github.com/cmr/this-week-in-rust - Content for this-week-in-rust.org. Ma
 https://github.com/mre/awesome-static-analysis - This is a collection of static analysis tools and code quality checkers.
 https://github.com/mre/awesome-dynamic-analysis - A curated list of dynamic analysis tools for various programming languages.
 https://github.com/rust-embedded/awesome-embedded-rust - This is a curated list of resources related to embedded and low-level programming in the programming language Rust, including a list of useful crates.
+https://github.com/ZoranPandovski/al-go-rithms - Data Structures and Algorithms Tweet. Clean example implementations of data structures and algorithms written in different languages.
 
 ## Okey, Now the list
 
@@ -46,7 +47,11 @@ https://github.com/rust-embedded/awesome-embedded-rust - This is a curated list 
 [2019-10-27][Active] https://github.com/japaric/rust-cross - Everything you need to know about cross compiling Rust programs!
 [2019-10-27][Active] https://github.com/mre/idiomatic-rust - A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust. https://github.com/mre/idiomatic-rust/blob/master/CONTRIBUTING.md
 [2019-10-27][Active] https://github.com/bluss/rustfaq - The supplementary Rust FAQ is intended to be extensive, answer questions that are often encountered, and being simple to update. also: https://www.rust-lang.org/en-US/faq.html
+[2019-10-27][Active] https://github.com/rustwasm/book - The Rust and WebAssembly Book. This small book describes how to use Rust and WebAssembly together. It also consists of tutorials with cool exercises.
+[2019-10-28][Active] https://github.com/ZoranPandovski/al-go-rithms - Algorithms written in different programming languages - https://zoranpandovski.github.io/al-go-rithms/
 [2019-10-28][Active] https://github.com/KaiserY/rust-book-chinese - 本文档为 The Rust Programming Language 的中文翻译。
+[2019-10-28][Active] https://github.com/ralfbiedert/cheats.rs - This is the "Rust Language Cheat Sheet". It is for users who are early Rust professionals (experienced programmers, intermediate Rust users), and prefer visual, example-driven content
+Engineering Rust Web Applications(https://erwabook.com/intro/)
 
 Others:
 http://acm.timus.ru/help.aspx?topic=rust
@@ -89,6 +94,7 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-25][Active] https://github.com/dtolnay/ghost - This crate provides a #[phantom] attribute that makes it possible to define unit structs with generic parameters. ref: https://doc.rust-lang.org/std/marker/struct.PhantomData.html
 [2019-10-25][Active] https://github.com/riker-rs/riker - Easily build efficient, highly concurrent and resilient applications. An Actor Framework for Rust.
 [2019-10-25][Died] https://github.com/huytd/mvvm-rs - MVVM Pattern Implementation in Rust 
+[2019-10-25][Active] https://github.com/spacejam/tla-rust - writing correct lock-free and distributed stateful systems in Rust, assisted by TLA+. verify core lock-free and distributed algorithms in use with rsdb and rasputin with TLA+. Write an implementation in Rust. Use quickcheck and abstracted RPC/clocks to simulate partitions and test correctness under failure conditions.
 
 ### Log
 [2019-10-18][Active] https://github.com/sfackler/log4rs
@@ -96,6 +102,8 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-22][Active] https://github.com/seanmonstar/pretty-env-logger - A simple logger built on top off env_logger(https://docs.rs/env_logger/0.7.1/env_logger/). It is configured via an environment variable and writes to standard error with nice colored output for log levels.
 [2019-10-22][Active] https://github.com/tokio-rs/tracing - Application level tracing for Rust. https://tokio.rs. is a framework for instrumenting Rust programs to collect structured, event-based diagnostic information. 
 [2019-10-22][Active] https://github.com/rust-lang/rust-log-analyzer - Analyzing Travis and Azure Pipelines logs to find encountered errors.The Rust Log Analyzer (RLA) is a tool that analyzes the CI build logs of the rust-lang/rust repository with the purpose of automatically extracting error messages from failed builds.
+[2019-10-28][Active] https://github.com/slog-rs/slog - Structured, contextual, extensible, composable logging for Rust. slog is an ecosystem of reusable components for structured, extensible, composable and contextual logging for Rust. The ambition is to be The Logging Library for Rust. slog should accommodate a variety of logging features and requirements. If there is a feature that you need and standard log crate is missing, slog should have it. This power comes with a little steeper learning curve, so if you experience any problems, please join slog-rs gitter channel to get up to speed. If you'd like to take a quick, convenient route, consider using sloggers wrapper library.
+[2019-10-28][Active] https://github.com/Xudong-Huang/minsql - MinSQL is a log search engine designed with simplicity in mind to the extent that no SDK is needed to interact with it, most programming languages and tools have some form of http request capability (ie: curl) and that's all you need to interact with MinSQL.
 
 ### Async & Parallel computing
 [2019-10-18][Active] https://github.com/Matthias247/futures-intrusive
@@ -110,6 +118,9 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-27][Active] https://gitlab.com/jD91mZM2/xidlehook - xidlehook(https://linux.die.net/man/1/xautolock) is a general-purpose replacement for xautolock. It executes a command when the computer has been idle for a specified amount of time. 
 [2019-10-27][Active] https://gitlab.redox-os.org/redox-os/parallel or https://github.com/mmstick/parallel - Redox's Parallel. This is an attempt at recreating the functionality of GNU Parallel, a work-stealer for the command-line, in Rust under a MIT license. The end goal will be to support much of the functionality of GNU Parallel and then to extend the functionality further for the next generation of command-line utilities written in Rust. While functionality is important, with the application being developed in Rust, the goal is to also be as fast and efficient as possible.
 [2019-10-28][Active] https://github.com/async-rs/async-std - provides an async version of std. It provides all the interfaces you are used to, but in an async version and ready for Rust's async/await syntax.
+[2019-10-28][Active] https://github.com/Xudong-Huang/may - May is a high-performant library for programming stackful coroutines with which you can easily develop and maintain massive concurrent programs. It can be thought as the Rust version of the popular Goroutine.
+[2019-10-28][Active] https://github.com/Xudong-Huang/generator-rs - rust stackful generator library
+
 
 ### Test
 [2019-10-22][Active] https://github.com/crossbario/autobahn-testsuite - used by 
@@ -121,11 +132,7 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-25][Active] https://github.com/fcsonline/drill - Drill is a HTTP load testing application written in Rust. The main goal for this project is to build a really lightweight tool as alternative to other that require JVM and other stuff. You can write brenchmark files, in YAML format, describing all the stuff you want to test. It was inspired by Ansible(https://docs.ansible.com/ansible/playbooks_intro.html) syntax because it is really easy to use and extend.
 [2019-10-27][Active] https://github.com/BurntSushi/quickcheck - QuickCheck is a way to do property based testing using randomly generated input. This crate comes with the ability to randomly generate and shrink integers, floats, tuples, booleans, lists, strings, options and results. It should be the same strategy used in Koen Claessen's QuickCheck for Haskell.
 [2019-10-27][Active] https://github.com/petertseng/exercism-rust https://github.com/exercism/rust - At the most basic level, Exercism is all about the tests. You can read more about how we think about test suites in the Exercism documentation.
-[2019-10-27][Died] https://github.com/nikomatsakis/rust-runtime-benchmarks - Some benchmarks for testing rustc performance. 
-
-
-
-It was inspired by Ansible syntax because it is really easy to use and extend.
+[2019-10-27][Died] https://github.com/nikomatsakis/rust-runtime-benchmarks - Some benchmarks for testing rustc performance. It was inspired by Ansible syntax because it is really easy to use and extend.
 
 ### System & IO
 [2019-10-22][Active] https://github.com/tokio-rs/mio - Mio is a lightweight I/O library for Rust with a focus on adding as little overhead as possible over the OS abstractions.
@@ -164,6 +171,9 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-25][Active] https://github.com/dtolnay/automod - Pull in every source file in a directory as a module and test them.
 [2019-10-25][Active] https://github.com/buildfoundation/mainframer - Tool for remote builds. Sync project to remote machine, execute command, sync back.
 [2019-10-25][Active] https://github.com/watchexec/watchexec - Software development often involves running the same commands over and over. Boring! watchexec is a simple, standalone tool that watches a path and runs a command whenever it detects modifications. Example use cases: Automatically run unit tests; Run linters/syntax checkers.
+[2019-10-28][Active] https://github.com/crev-dev/cargo-crev - crev is a general system of preparing cryptographically signed documents (proofs) describing results of code reviews and circulating them between developers to coordinate a distributed ecosystem of code review. cargo-crev is an implementation of crev for Rust programming language, tightly integrated with its package manager: cargo. The goal of cargo-crev is helping Rust community verify and review all the dependencies published on http://crates.io and used by Rust developers.
+[2019-10-28][Active] https://github.com/japaric/trust - Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows. Features: 1. CI test your crate (library or binary) on Linux, macOS and Windows and on more than just the x86 architecture. 2.Cargo artifacts are cached and reused between CI builds. 3."Deploys": Publish binary releases of your application by just pushing a new (Git) tag. Requirements: 1.Your crate must be hosted on GitHub (free). 2. A Travis CI account (free). 3. An AppVeyor account (free).
+[2019-10-28][Active] https://github.com/Xudong-Huang/rust-embed - Rust Custom Derive Macro which loads files into the rust binary at compile time during release and loads the file from the fs during dev. You can use this to embed your css, js and images into a single executable which can be deployed to your servers. Also it makes it easy to build a very small docker image for you to deploy.
 
 ### contest 
 [2019-10-27][Died] https://github.com/petertseng/adventofcode-rs-2015 - 
@@ -193,6 +203,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-27][Died] https://github.com/BurntSushi/suffix - Fast linear time & space suffix arrays for Rust. Supports Unicode! The big thing missing at the moment is a generalized suffix array. I started out with the intention to build them into the construction algorithm, but this has proved more difficult than I thought.
 [2019-10-27][Died] https://github.com/BurntSushi/rust-sorts - A comparison of different sort algorithms in Rust. This includes mergesort, quicksort, heapsort, insertion sort, selection sort, bubble sort and even bogo sort. The library comes with benchmarks for vectors of different sizes and for vectors that are already sorted or vectors where all elements are equivalent. This library also comes with QuickCheck tests that check whether the result of a sorting algorithm is sorted. Each algorithm is also checked that it is stable/unstable depending on the algorithm used. This is pre-rust 1.0 code. A majority of it will not compile or otherwise work in modern Rust.
 [2019-10-27][Died] https://github.com/BurntSushi/rust-decimal - A Decimal Implementation written in pure Rust suitable for financial calculations. 
+[2019-10-28][Active] https://github.com/Xudong-Huang/nonblockinghashmap - Highly Scalable Non-blocking Hash Map in Rust. The design of this hash map is taken and modified from Dr. Cliff Click's design, originally implemented in Java(https://www.youtube.com/watch?v=WYXgtXWejRM).
 
 ### Data, Data opt/etl or Database/Datawarehouse opt relatives
 [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
@@ -212,6 +223,9 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-25][Active] https://github.com/BurntSushi/fst - This crate provides a fast implementation of ordered sets and maps using finite state machines. In particular, it makes use of finite state transducers to map keys to values as the machine is executed. Using finite state machines as data structures enables us to store keys in a compact format that is also easily searchable. For example, this crate leverages memory maps to make range queries very fast.
 [2019-10-27][Active] https://github.com/TimelyDataflow/timely-dataflow - Timely dataflow is a low-latency cyclic dataflow computational model, introduced in the paper Naiad: a timely dataflow system. This project is an extended and more modular implementation of timely dataflow in Rust.
 [2019-10-28][Active] https://github.com/RedBeardLab/rediSQL - RediSQL is the Fast, in-memory, SQL engine with batteries included. it is based on Redis, supports all the persistency features of Redis. Also supports Python, go, Nodejs.
+[2019-10-28][Active] https://github.com/bodil/im-rs - Blazing fast immutable collection datatypes for Rust. Comes in two versions: im (thread safe) and im-rc (fast but not thread safe).
+[2019-10-28][Active] https://github.com/petgraph/petgraph - Graph data structure library for Rust
+[2019-10-28][Active] https://github.com/Xudong-Huang/may_postgres - postgres client for rust stackful coroutine
 
 ### Data Format relative
 [2019-10-19][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
@@ -231,6 +245,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-23][Active] https://github.com/YunYang1994/ai-notebooks - reimplements articles code with tensorflow.
 [2019-10-25][Active] https://github.com/jJimo/rust-bloomfilter - A bloom filter implementation in Rust, using mixing hash function and XXHASH （https://github.com/Cyan4973/xxHash）
 [2019-10-28][Active] https://github.com/calebwin/emu - Emu is a framework/compiler for GPU acceleration of Rust, GPU programming. It is a procedural macro that accept pure, safe Rust code as input, identifies portions to attempt to accelerate, and automatically writes in code to run portions on the GPU instead of the CPU.
+[2019-10-28][Active] https://github.com/jwilm/alacritty - A cross-platform, GPU-accelerated terminal emulator. Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it. Alacritty currently supports macOS, Linux, BSD, and Windows.
 
 ### InterActive with Other Programming-Language/Platform
 [2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
@@ -245,6 +260,11 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-25][Active] https://github.com/mystor/rust-cpp - Embed C++ directly inside your rust code!
 [2019-10-25][Active] https://github.com/darfink/chakracore-rs#chakracore-sys - This library handles the static and dynamic linking of the JavaScript Runtime. The rust bindings are generated (on the fly) for the interface, therefore the entire API is exposed and accessable.
 [2019-10-27][Active] https://github.com/That3Percent/js-object - A macro for creating JavaScript objects.
+[2019-10-28][Active] https://github.com/PistonDevelopers/dyon - A rusty dynamically typed scripting language. Sven Nilsen started this project in early 2016. The idea was to make a simple, but convenient scripting language that integrated well with Rust.
+[2019-10-28][Active] https://github.com/immunant/c2rust - C2Rust helps you migrate C99-compliant code to Rust. The translator (or transpiler) produces unsafe Rust code that closely mirrors the input C code. The primary goal of the translator is to preserve functionality; test suites should continue to pass after translation. Generating safe and idiomatic Rust code from C ultimately requires manual effort. However, we are building a scriptable refactoring tool that reduces the tedium of doing so. You can also cross-check the translated code against the original (tutorial).
+
+[2019-10-28][Active] https://github.com/d-unseductable/ruru - Native Ruby extensions written in Rust.
+
 
 ### Middleware relatives
 [2019-10-18][Active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
@@ -277,6 +297,8 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-28][Active] https://github.com/djc/quinn - QUIC is an IETF Working Group that is chartered to deliver the next transport protocol for the Internet. Quinn is an implementation of the QUIC transport protocol undergoing standardization by the IETF. It is suitable for experimental use. The implementation is split up into the state machine crate quinn-proto which performs no I/O internally and is suitable for use with custom event loops, and a high-level tokio-compatible API in quinn. See quinn/examples/ for usage.
 [2019-10-28][Active] https://github.com/housleyjk/ws-rs  Lightweight, event-driven WebSockets for Rust. This library provides an implementation of WebSockets, RFC6455 using MIO. It allows for handling multiple connections on a single thread, and even spawning new client connections on the same thread. This makes for very fast and resource efficient WebSockets. The API design abstracts away the menial parts of the WebSocket protocol and allows you to focus on application code without worrying about protocol conformance. However, it is also possible to get low-level access to individual WebSocket frames if you need to write extensions or want to optimize around the WebSocket protocol.
 [2019-10-28][Active] https://github.com/libpnet/libpnet - Cross-platform, low level networking using the Rust.
+[2019-10-28][Active] https://github.com/tower-rs/tower - fn(Request) -> Future<Response>. Tower aims to make it as easy as possible to build robust networking clients and servers. It is protocol agnostic, but is designed around a request / response pattern. If your protocol is entirely stream based, Tower may not be a good fit.
+https://github.com/notify-rs/notify - Cross-platform filesystem notification library for Rust(Looking for desktop notifications instead? Have a look at notify-rust or alert-after). As used by: alacritty, cargo watch, cobalt, docket, mdBook, pax rdiff, rust-analyzer, timetrack, watchexec, xi-editor, and others.
 
 ### Serialization
 [2019-10-23][Active] https://github.com/BurntSushi/byteorder - Rust library for reading/writing numbers in big-endian and little-endian.
@@ -288,12 +310,14 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-22][Active] https://github.com/dflemstr/serde-protobuf - 
 [2019-10-23][Active] https://github.com/google/flatbuffers - FlatBuffers is a cross platform serialization library architected for maximum memory efficiency. It allows you to directly access serialized data without parsing/unpacking it first, while still having great forwards/backwards compatibility.
 [2019-10-23][Active] https://github.com/mvdnes/zip-rs - Zip implementation in Rust.
+[2019-10-23][Active] https://github.com/ron-rs/ron - RON is a simple readable data serialization format that looks similar to Rust syntax. It's designed to support all of Serde's data model(https://serde.rs/data-model.html), so structs, enums, tuples, arrays, generic maps, and primitive values.
+[2019-10-28][Active] https://github.com/servo/bincode - A binary encoder / decoder implementation in Rust. A compact encoder / decoder pair that uses a binary zero-fluff encoding scheme. The size of the encoded object will be the same or smaller than the size that the object takes up in memory in a running Rust program. In addition to exposing two simple functions (one that encodes to Vec<u8>, and one that decodes from &[u8]), binary-encode exposes a Reader/Writer API that makes it work perfectly with other stream-based APIs such as Rust files, network streams, and the flate2-rs compression library.
 
 ### Crypto
 [2019-10-18][Active] https://github.com/sfackler/rust-openssl - OpenSSL bindings for Rust.
 [2019-10-18][Active] https://github.com/sfackler/hyper-native-tls - An abstraction over platform-specific TLS implementations.
 [2019-10-22][Active] https://github.com/ctz/rustls - Rustls is a TLS library that aims to provide a good level of cryptographic security, requires no configuration to achieve that security, and provides no unsafe features or obsolete cryptography.
-[2019-10-22][Died] https://github.com/DaGenix/rust-crypto - A (mostly) pure-Rust implementation of various cryptographic algorithms. 
+[2019-10-22][Died] https://github.com/DaGenix/rust-crypto - A (mostly) pure-Rust implementation of various cryptographic algorithms. ust-Crypto seeks to create practical, auditable, pure-Rust implementations of common cryptographic algorithms with a minimum amount of assembly code where appropriate. The x86-64, x86, and ARM architectures are supported, although the x86-64 architecture receives the most testing.
 [2019-10-23][Active] https://github.com/jedisct1/libhydrogen - A lightweight, secure, easy-to-use crypto library suitable for constrained environments. https://libhydrogen.org
 [2019-10-23][Active] https://github.com/sodiumoxide/sodiumoxide - Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API. Sodium Oxide: Fast cryptographic library for Rust (bindings to libsodium) 
 [2019-10-23][Died] https://github.com/dcuddeback/des_crack
@@ -301,10 +325,10 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-27][Active] https://github.com/mesalock-linux/mesalink - MesaLink is a memory-safe and OpenSSL-compatible TLS library. MesaLink has been in production at Baidu with >10 million monthly active users. website: https://mesalink.io.
 [2019-10-28][Active] https://github.com/nayuki/QR-Code-generator - This project aims to be the best, clearest QR Code generator library in multiple languages. The primary goals are flexible options and absolute correctness. Secondary goals are compact implementation size and good documentation comments.
 
-### Servers (WEB, middle layer, microserive and etc.)
+### Server (WEB, middle layer, microserive and etc.)
 [2019-10-18][Active] https://github.com/nickel-org/nickel.rs
 [2019-10-22][Active] https://github.com/SergioBenitez/Rocket - Rocket is a web framework for Rust (nightly) with a focus on ease-of-use, expressibility, and speed. 
-[2019-10-22][Active] https://github.com/websockets-rs/rust-websocket - 
+[2019-10-22][Active] https://github.com/websockets-rs/rust-websocket - Rust-WebSocket is a WebSocket (RFC6455) library written in Rust. Rust-WebSocket provides a framework for dealing with WebSocket connections (both clients and servers). The library is currently in an experimental state, but provides functionality for both normal and secure WebSockets, a message level API supporting fragmentation, a data frame level API, and the ability to extend and customize behaviour.
 [2019-10-22][Active] https://github.com/iron/iron - An Extensible, Concurrent Web Framework for Rust http://ironframework.io
 [2019-10-23][Died] https://github.com/rustless/rustless - REST-like API micro-framework for Rust. Works with Iron. 
 [2019-10-23][Active] https://github.com/flosse/rust-web-framework-comparison - A comparison of some web frameworks and libs written in Rust.
@@ -317,6 +341,9 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-27][Active] https://github.com/nickel-org/nickel.rs - An expressjs inspired web framework for Rust http://nickel-org.github.io/
 [2019-10-27][Active] https://github.com/saschagrunert/webapp.rs - A web application completely written in Rust. https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471 and https://medium.com/@saschagrunert/lessons-learned-on-writing-web-applications-completely-in-rust-2080d0990287
 [2019-10-27][Active] https://github.com/saschagrunert/kubernix - Single dependency Kubernetes clusters for local testing, experimenting and development
+[2019-10-27][Active] https://awesomeopensource.com/project/djc/askama - Type-safe, compiled Jinja-like templates for Rust.
+[2019-10-28][Active] https://github.com/daogangtang/sapper - Sapper, a lightweight web framework, written in Rust. https://github.com/sappworks/sapper/blob/master/docs/Tutorial-cn.md
+[2019-10-28][Active] https://github.com/David-OConnor/seed - A Rust framework for creating web apps. https://seed-rs.org/ Engineering Rust Web Applications(https://erwabook.com/intro/)
 
 ### GUI/Game relatives
 [2019-10-19][Active] https://github.com/gfx-rs/gfx - A low-overhead Vulkan-like GPU API for Rust.
@@ -332,6 +359,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-23][Active] https://github.com/rust-windowing/winit - Cross-platform window creation and management in Rust(js)
 [2019-10-23][Active] https://github.com/phaazon/luminance-rs - Type-safe, type-level and stateless Rust graphics framework. luminance provides an API that is, for sure, a bit less low-level — and hence, yes, it’s likely you will not have the same performances as with gfx-hal (even though no benchmarks have been done so far), and the API is not Vulkan-based — but easier to start with, especially if you don’t already have a background experience with OpenGL or Vulkan.
 [2019-10-28][Active] https://github.com/nical/lyon - 2D graphics rendering on the GPU in rust using path tessellation. For now the goal is to provide efficient SVG-compliant path tessellation tools to help with rendering vector graphics on the GPU. For now think of this library as a way to turn complex paths into triangles for use in your own rendering engine. The intent is for this library to be useful in projects like Servo and games.
+[2019-10-28][Active] https://github.com/flutter-rs/flutter-rs - Build beautiful desktop apps with flutter and rust. Support Hot reload;MethodChannel, EventChannel;Async runtime using tokio;ystem dialogs;Clipboard support;Cross platform support, Runs on mac, windows, linux;Support distribution format: (windows NSIS, mac app, mac dmg, linux snap).
 
 ### Web UI
 [2019-10-27][Active] https://github.com/ritz078/transform - A polyglot web converter. https://transform.tools
@@ -356,7 +384,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-20][Active] https://github.com/meh/rust-ffmpeg - Safe FFmpeg wrapper. 
 
 ### Mobile device
-[2019-10-19][Active] https://github.com/rust-windowing/android-rs-glue - Glue between Rust and Android
+[2019-10-28][Active] https://github.com/rust-windowing/android-rs-glue - Glue between Rust and Android
 
 ### Tools
 [2019-10-20][Active] https://github.com/servo/servo - The Servo Browser Engine https://servo.org/
@@ -365,14 +393,16 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-22][Active] https://github.com/clap-rs/clap - A full featured, fast Command Line Argument Parser for Rust https://clap.rs.
 [2019-10-28][Active] https://github.com/redox-os/termion - Termion is a pure Rust, bindless library for low-level handling, manipulating and reading information about terminals. This provides a full-featured alternative to Termbox. ref: https://github.com/nsf/termbox-go
 Termbox is a library that provides a minimalistic API which allows the programmer to write text-based user interfaces. The library is crossplatform and has both terminal-based implementations on *nix operating systems and a winapi console based implementation for windows operating systems. The basic idea is an abstraction of the greatest common subset of features available on all major terminals and other terminal-like APIs in a minimalistic fashion. Small API means it is easy to implement, test, maintain and learn it, that's what makes the termbox a distinct library in its area.
+[2019-10-28][Active] https://github.com/rust-analyzer/rust-analyzer - An experimental Rust compiler front-end for IDEs.
+[2019-10-28][Active] https://github.com/dtolnay/syn - Parser for Rust source code. As development helper? Debug helper?
 
 ### IoT
 [2019-10-23][Active] https://github.com/dcuddeback/termios-rs - The termios crate provides safe bindings for the Rust programming language to the terminal I/O interface implemented by Unix operating systems.
 [2019-10-23][Active] https://github.com/dcuddeback/libusb-rs - This crate provides a safe wrapper around the native libusb library. It applies the RAII pattern and Rust lifetimes to ensure safe usage of all libusb functionality. All systems supported by the native libusb library are also supported by the libusb crate. It's been tested on Linux, OS X, and Windows.
 [2019-10-23][Active] https://github.com/dcuddeback/libusb-sys - the libusb-sys crate provides declarations and linkage for the libusb C library. Following the *-sys package conventions, the libusb-sys crate does not define higher-level abstractions over the native libusb library functions.
+[2019-10-28][Active] https://github.com/rust-windowing/android-rs-glue - Glue between Rust and Android.
 
 ### Others
-[2019-10-19][Active] https://github.com/dtolnay/syn - Parser for Rust source code.
 [2019-10-23][Active] https://github.com/kevinmehall/rust-peg - rust-peg is a simple yet flexible parser generator based on the Parsing Expression Grammar formalism. It provides a Rust macro that builds a recursive descent parser from a concise definition of the grammar.
 [2019-10-23][Active] https://github.com/mtojek/ohlavpn - Find working VPN proxy all over the world. Use Hola VPN API to grab a list of fast VPN proxy servers all over the world. Use the IP-API endpoint to check their geolocation and owners (mind the service limits).
 
@@ -383,6 +413,7 @@ Termbox is a library that provides a minimalistic API which allows the programme
 [2019-10-7][Active] https://github.com/paritytech/trie - A generic implementation of the Base-16 Modified Merkle Tree ("Trie") data structure: Trie DB (trie-db crate) and Trie Hash (trie-hash crate). explanation： https://zhuanlan.zhihu.com/p/46702178
 [2019-10-27][Active] https://github.com/tafia/quick-patricia-trie - A toy implementation of a (merkle)patricia tree as used in ethereum. The implementation is strongly inspired by parity patricia-trie. This is a total reimplementation from scratch so there are numerous differences.
 [2019-10-28][Active] https://github.com/exonum/exonum - An extensible open-source framework for creating private/permissioned blockchain applications. xonum can be used to create cryptographically powered distributed ledgers in virtually any problem domain, including FinTech, GovTech, and LegalTech. The Exonum framework is oriented towards creating permissioned blockchains, that is, blockchains with the known set of blockchain infrastructure providers.
+[2019-10-28][Active] https://github.com/cryptape/cita - CITA is a fast and scalable blockchain kernel for enterprises. CITA supports both native contract and EVM contract, by which enterprise users can build their own blockchain applications. CITA has a unique architecture which enables enterprise users to release all their computing resources.
 
 ### Some not relative stuff
 contribuing guide: https://github.com/nix-rust/nix/blob/master/CONTRIBUTING.md; https://github.com/rust-rosetta/rust-rosetta/blob/master/CONTRIBUTING.md
@@ -411,6 +442,7 @@ https://github.com/BurntSushi
 https://github.com/mre
 https://github.com/bluss - I work on Rust, I teach Rust.
 https://github.com/saschagrunert
+https://github.com/Xudong-Huang - coroutines geek
 
 ## Other relative stuff
 https://github.com/crossbario - Seamless connectivity for the IoT and real-time microservices.  https://crossbar.io
