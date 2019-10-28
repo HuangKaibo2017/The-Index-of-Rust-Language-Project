@@ -107,6 +107,7 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-23][Died] https://github.com/dgrunwald/rust-cancellation - CancellationToken for composable cancellation in Rust.
 [2019-10-27][Active] https://gitlab.com/jD91mZM2/xidlehook - xidlehook(https://linux.die.net/man/1/xautolock) is a general-purpose replacement for xautolock. It executes a command when the computer has been idle for a specified amount of time. 
 [2019-10-27][Active] https://gitlab.redox-os.org/redox-os/parallel or https://github.com/mmstick/parallel - Redox's Parallel. This is an attempt at recreating the functionality of GNU Parallel, a work-stealer for the command-line, in Rust under a MIT license. The end goal will be to support much of the functionality of GNU Parallel and then to extend the functionality further for the next generation of command-line utilities written in Rust. While functionality is important, with the application being developed in Rust, the goal is to also be as fast and efficient as possible.
+[2019-10-28][Active] https://github.com/async-rs/async-std - provides an async version of std. It provides all the interfaces you are used to, but in an async version and ready for Rust's async/await syntax.
 
 ### Test
 [2019-10-22][Active] https://github.com/crossbario/autobahn-testsuite - used by 
@@ -159,6 +160,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-26][Active] https://github.com/tree-sitter/tree-sitter - Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited.
 [2019-10-25][Active] https://github.com/dtolnay/automod - Pull in every source file in a directory as a module and test them.
 [2019-10-25][Active] https://github.com/buildfoundation/mainframer - Tool for remote builds. Sync project to remote machine, execute command, sync back.
+[2019-10-25][Active] https://github.com/watchexec/watchexec - Software development often involves running the same commands over and over. Boring! watchexec is a simple, standalone tool that watches a path and runs a command whenever it detects modifications. Example use cases: Automatically run unit tests; Run linters/syntax checkers.
 
 ### contest 
 [2019-10-27][Died] https://github.com/petertseng/adventofcode-rs-2015 - 
@@ -224,6 +226,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-23][Active] https://github.com/bheisler/RustaCUDA - RustaCUDA helps you bring GPU-acceleration to your projects by providing a flexible, easy-to-use interface to the CUDA GPU computing toolkit. RustaCUDA makes it easy to manage GPU memory, transfer data to and from the GPU, and load and launch compute kernels written in any language.
 [2019-10-23][Active] https://github.com/YunYang1994/ai-notebooks - reimplements articles code with tensorflow.
 [2019-10-25][Active] https://github.com/jJimo/rust-bloomfilter - A bloom filter implementation in Rust, using mixing hash function and XXHASH （https://github.com/Cyan4973/xxHash）
+[2019-10-28][Active] https://github.com/calebwin/emu - Emu is a framework/compiler for GPU acceleration of Rust, GPU programming. It is a procedural macro that accept pure, safe Rust code as input, identifies portions to attempt to accelerate, and automatically writes in code to run portions on the GPU instead of the CPU.
 
 ### InterActive with Other Programming-Language/Platform
 [2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
@@ -266,6 +269,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-23][Active] https://github.com/libp2p/rust-libp2p - Rust Implementation of libp2p networking stack. https://libp2p.io Modular peer-to-peer networking stack (used by IPFS and others)
 [2019-10-25][Active] https://github.com/kardeiz/jsonrpc-v2 - JSON-RPC 2.0 server-focused framework. Provides integrations for both hyper and actix-web. Enable features actix or hyper depending on need.
 [2019-10-25][Active] https://github.com/abonander/multipart-async - Futures-based client- and server-side abstractions for HTTP file uploads (POST requests with Content-Type: multipart/form-data). Preliminary support for Hyper 0.13 and async/await; requires 1.39 to build (nightly-2019-08-15, will be released to beta on 2019-09-26)
+[2019-10-25][Active] https://github.com/google/tarpc - This is not an official Google product. tarpc is an RPC framework for rust with a focus on ease of use. Defining a service can be done in just a few lines of code, and most of the boilerplate of writing a server is taken care of for you.
 
 ### Serialization
 [2019-10-23][Active] https://github.com/BurntSushi/byteorder - Rust library for reading/writing numbers in big-endian and little-endian.
@@ -303,6 +307,8 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-25][Active] https://github.com/Keats/tera - A template engine for Rust based on Jinja2/Django https://tera.netlify.com/
 [2019-10-25][Active] https://github.com/pepsighan/rust-web-developer-roadmap - Below you can find a chart demonstrating the path you may take and the libraries you may require to become a Rust Web Developer. This chart is made with inspiration from Golang Developer Roadmap(https://github.com/Alikhll/golang-developer-roadmap/).
 [2019-10-27][Active] https://github.com/nickel-org/nickel.rs - An expressjs inspired web framework for Rust http://nickel-org.github.io/
+[2019-10-27][Active] https://github.com/saschagrunert/webapp.rs - A web application completely written in Rust. https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471 and https://medium.com/@saschagrunert/lessons-learned-on-writing-web-applications-completely-in-rust-2080d0990287
+[2019-10-27][Active] https://github.com/saschagrunert/kubernix - Single dependency Kubernetes clusters for local testing, experimenting and development
 
 ### GUI/Game relatives
 [2019-10-19][Active] https://github.com/gfx-rs/gfx - A low-overhead Vulkan-like GPU API for Rust.
@@ -348,6 +354,8 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-22][Active] https://github.com/racer-rust/racer - Rust Code Completion utility.
 [2019-10-22][Active] https://github.com/xi-editor/xi-editor - an Editor by Rust.
 [2019-10-22][Active] https://github.com/clap-rs/clap - A full featured, fast Command Line Argument Parser for Rust https://clap.rs.
+[2019-10-28][Active] https://github.com/redox-os/termion - Termion is a pure Rust, bindless library for low-level handling, manipulating and reading information about terminals. This provides a full-featured alternative to Termbox. ref: https://github.com/nsf/termbox-go
+Termbox is a library that provides a minimalistic API which allows the programmer to write text-based user interfaces. The library is crossplatform and has both terminal-based implementations on *nix operating systems and a winapi console based implementation for windows operating systems. The basic idea is an abstraction of the greatest common subset of features available on all major terminals and other terminal-like APIs in a minimalistic fashion. Small API means it is easy to implement, test, maintain and learn it, that's what makes the termbox a distinct library in its area.
 
 ### IoT
 [2019-10-23][Active] https://github.com/dcuddeback/termios-rs - The termios crate provides safe bindings for the Rust programming language to the terminal I/O interface implemented by Unix operating systems.
@@ -392,6 +400,7 @@ https://github.com/huytd
 https://github.com/BurntSushi
 https://github.com/mre
 https://github.com/bluss - I work on Rust, I teach Rust.
+https://github.com/saschagrunert
 
 ## Other relative stuff
 https://github.com/crossbario - Seamless connectivity for the IoT and real-time microservices.  https://crossbar.io
