@@ -21,6 +21,7 @@ https://github.com/rust-lang-nursery - baby rust projects.
 https://github.com/cmr/this-week-in-rust - Content for this-week-in-rust.org. Made available under CC-BY-SA.
 https://github.com/mre/awesome-static-analysis - This is a collection of static analysis tools and code quality checkers.
 https://github.com/mre/awesome-dynamic-analysis - A curated list of dynamic analysis tools for various programming languages.
+https://github.com/rust-embedded/awesome-embedded-rust - This is a curated list of resources related to embedded and low-level programming in the programming language Rust, including a list of useful crates.
 
 ## Okey, Now the list
 
@@ -45,6 +46,7 @@ https://github.com/mre/awesome-dynamic-analysis - A curated list of dynamic anal
 [2019-10-27][Active] https://github.com/japaric/rust-cross - Everything you need to know about cross compiling Rust programs!
 [2019-10-27][Active] https://github.com/mre/idiomatic-rust - A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust. https://github.com/mre/idiomatic-rust/blob/master/CONTRIBUTING.md
 [2019-10-27][Active] https://github.com/bluss/rustfaq - The supplementary Rust FAQ is intended to be extensive, answer questions that are often encountered, and being simple to update. also: https://www.rust-lang.org/en-US/faq.html
+[2019-10-28][Active] https://github.com/KaiserY/rust-book-chinese - 本文档为 The Rust Programming Language 的中文翻译。
 
 Others:
 http://acm.timus.ru/help.aspx?topic=rust
@@ -114,12 +116,13 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-23][Active] https://github.com/BurntSushi/quickcheck - QuickCheck is a way to do property based testing using randomly generated input. This crate comes with the ability to randomly generate and shrink integers, floats, tuples, booleans, lists, strings, options and results. All QuickCheck needs is a property function—it will then randomly generate inputs to that function and call the property for each set of inputs. If the property fails (whether by a runtime error like index out-of-bounds or by not satisfying your property), the inputs are "shrunk" to find a smaller counter-example.
 [2019-10-23][Active] https://github.com/mitsuhiko/rust-incidents - This library provides an experiment for error handling in Rust. It provides efficient error handling and provides powerful debugging features.
 [2019-10-25][Active] https://github.com/BurntSushi/critcmp - A command line tool for comparing benchmarks run by Criterion benchmark harness. 
-[2019-10-25][Active] https://github.com/bheisler/criterion.rs - Criterion.rs helps you write fast code by detecting and measuring performance improvements or regressions, even small ones, quickly and accurately. You can optimize with confidence, knowing how each change affects the performance of your code.
+[2019-10-28][Active] https://github.com/bheisler/criterion.rs - Statistics-driven benchmarking library for Rust. Criterion.rs helps you write fast code by detecting and measuring performance improvements or regressions, even small ones, quickly and accurately. You can optimize with confidence, knowing how each change affects the performance of your code.
 [2019-10-27][Active] https://github.com/ObliqueMotion/rust-criterion-template - A template for writing benchmarks in Rust Crierion.
 [2019-10-25][Active] https://github.com/fcsonline/drill - Drill is a HTTP load testing application written in Rust. The main goal for this project is to build a really lightweight tool as alternative to other that require JVM and other stuff. You can write brenchmark files, in YAML format, describing all the stuff you want to test. It was inspired by Ansible(https://docs.ansible.com/ansible/playbooks_intro.html) syntax because it is really easy to use and extend.
 [2019-10-27][Active] https://github.com/BurntSushi/quickcheck - QuickCheck is a way to do property based testing using randomly generated input. This crate comes with the ability to randomly generate and shrink integers, floats, tuples, booleans, lists, strings, options and results. It should be the same strategy used in Koen Claessen's QuickCheck for Haskell.
 [2019-10-27][Active] https://github.com/petertseng/exercism-rust https://github.com/exercism/rust - At the most basic level, Exercism is all about the tests. You can read more about how we think about test suites in the Exercism documentation.
 [2019-10-27][Died] https://github.com/nikomatsakis/rust-runtime-benchmarks - Some benchmarks for testing rustc performance. 
+
 
 
 It was inspired by Ansible syntax because it is really easy to use and extend.
@@ -208,6 +211,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-27][Active] https://github.com/tantivy-search/tantivy-cli - tantivy-cli is the project hosting the command line interface for tantivy, a search engine project.
 [2019-10-25][Active] https://github.com/BurntSushi/fst - This crate provides a fast implementation of ordered sets and maps using finite state machines. In particular, it makes use of finite state transducers to map keys to values as the machine is executed. Using finite state machines as data structures enables us to store keys in a compact format that is also easily searchable. For example, this crate leverages memory maps to make range queries very fast.
 [2019-10-27][Active] https://github.com/TimelyDataflow/timely-dataflow - Timely dataflow is a low-latency cyclic dataflow computational model, introduced in the paper Naiad: a timely dataflow system. This project is an extended and more modular implementation of timely dataflow in Rust.
+[2019-10-28][Active] https://github.com/RedBeardLab/rediSQL - RediSQL is the Fast, in-memory, SQL engine with batteries included. it is based on Redis, supports all the persistency features of Redis. Also supports Python, go, Nodejs.
 
 ### Data Format relative
 [2019-10-19][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
@@ -216,7 +220,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-20][Active] https://github.com/RustAudio/deepspeech-rs - The library is open source and performs Speech-To-Text completely offline. They provide pretrained models for English. It binds to https://github.com/mozilla/DeepSpeech.
 [2019-10-22][Died] https://github.com/AtheMathmo/rusty-machine -Rusty-machine is a general purpose machine learning library implemented entirely in Rust. It aims to combine speed and ease of use - without requiring a huge number of external dependencies.
 [2019-10-22][Died] https://github.com/AtheMathmo/rulinalg - Rulinalg is a linear algebra library written in Rust that doesn't require heavy external dependencies. The goal of rulinalg is to provide efficient implementations of common linear algebra techniques in Rust.
-[2019-10-22][Died] https://github.com/AtheMathmo/rugrads - A proof of concept automatic differentiation library for Rust.
+[2019-10-22][Died] https://github.com/AtheMathmo/rugrads - A proof of concept automatic differentiation library for Rust. This project began as a way for me to learn Rust and brush up on some less familiar machine learning algorithms and techniques. Now the project aims to provide a complete, easy to use, machine learning library for Rust. This library is still very much in early stages of development. Although there are a good number of algorithms many other things are missing. Rusty-machine is probably not the best choice for any serious projects - but hopefully that can change in the near future!
 [2019-10-22][Died] https://github.com/AtheMathmo/vision-rs - Access to computer vision benchmarking datasets in Rust. This library provides access to common machine learning benchmarking datasets.
 [2019-10-22][Active] https://github.com/arrayfire/arrayfire-rust - ArrayFire is a high performance library for parallel computing with an easy-to-use API. It enables users to write scientific computing code that is portable across CUDA, OpenCL and CPU devices. This project provides Rust bindings for the ArrayFire library. https://github.com/arrayfire/arrayfire: ArrayFire: a general purpose GPU library.
 [2019-10-22][Died] https://github.com/autumnai/leaf - Open Machine Intelligence Framework for Hackers. (GPU/CPU) 
@@ -270,6 +274,9 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-25][Active] https://github.com/kardeiz/jsonrpc-v2 - JSON-RPC 2.0 server-focused framework. Provides integrations for both hyper and actix-web. Enable features actix or hyper depending on need.
 [2019-10-25][Active] https://github.com/abonander/multipart-async - Futures-based client- and server-side abstractions for HTTP file uploads (POST requests with Content-Type: multipart/form-data). Preliminary support for Hyper 0.13 and async/await; requires 1.39 to build (nightly-2019-08-15, will be released to beta on 2019-09-26)
 [2019-10-25][Active] https://github.com/google/tarpc - This is not an official Google product. tarpc is an RPC framework for rust with a focus on ease of use. Defining a service can be done in just a few lines of code, and most of the boilerplate of writing a server is taken care of for you.
+[2019-10-28][Active] https://github.com/djc/quinn - QUIC is an IETF Working Group that is chartered to deliver the next transport protocol for the Internet. Quinn is an implementation of the QUIC transport protocol undergoing standardization by the IETF. It is suitable for experimental use. The implementation is split up into the state machine crate quinn-proto which performs no I/O internally and is suitable for use with custom event loops, and a high-level tokio-compatible API in quinn. See quinn/examples/ for usage.
+[2019-10-28][Active] https://github.com/housleyjk/ws-rs  Lightweight, event-driven WebSockets for Rust. This library provides an implementation of WebSockets, RFC6455 using MIO. It allows for handling multiple connections on a single thread, and even spawning new client connections on the same thread. This makes for very fast and resource efficient WebSockets. The API design abstracts away the menial parts of the WebSocket protocol and allows you to focus on application code without worrying about protocol conformance. However, it is also possible to get low-level access to individual WebSocket frames if you need to write extensions or want to optimize around the WebSocket protocol.
+[2019-10-28][Active] https://github.com/libpnet/libpnet - Cross-platform, low level networking using the Rust.
 
 ### Serialization
 [2019-10-23][Active] https://github.com/BurntSushi/byteorder - Rust library for reading/writing numbers in big-endian and little-endian.
@@ -292,6 +299,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-23][Died] https://github.com/dcuddeback/des_crack
 [2019-10-26][Active] https://github.com/sekey/sekey - Use Touch ID / Secure Enclave for SSH Authentication!
 [2019-10-27][Active] https://github.com/mesalock-linux/mesalink - MesaLink is a memory-safe and OpenSSL-compatible TLS library. MesaLink has been in production at Baidu with >10 million monthly active users. website: https://mesalink.io.
+[2019-10-28][Active] https://github.com/nayuki/QR-Code-generator - This project aims to be the best, clearest QR Code generator library in multiple languages. The primary goals are flexible options and absolute correctness. Secondary goals are compact implementation size and good documentation comments.
 
 ### Servers (WEB, middle layer, microserive and etc.)
 [2019-10-18][Active] https://github.com/nickel-org/nickel.rs
@@ -323,6 +331,7 @@ It was inspired by Ansible syntax because it is really easy to use and extend.
 [2019-10-23][Active] https://github.com/mvdnes/rboy - A Gameboy Emulator in Rust 
 [2019-10-23][Active] https://github.com/rust-windowing/winit - Cross-platform window creation and management in Rust(js)
 [2019-10-23][Active] https://github.com/phaazon/luminance-rs - Type-safe, type-level and stateless Rust graphics framework. luminance provides an API that is, for sure, a bit less low-level — and hence, yes, it’s likely you will not have the same performances as with gfx-hal (even though no benchmarks have been done so far), and the API is not Vulkan-based — but easier to start with, especially if you don’t already have a background experience with OpenGL or Vulkan.
+[2019-10-28][Active] https://github.com/nical/lyon - 2D graphics rendering on the GPU in rust using path tessellation. For now the goal is to provide efficient SVG-compliant path tessellation tools to help with rendering vector graphics on the GPU. For now think of this library as a way to turn complex paths into triangles for use in your own rendering engine. The intent is for this library to be useful in projects like Servo and games.
 
 ### Web UI
 [2019-10-27][Active] https://github.com/ritz078/transform - A polyglot web converter. https://transform.tools
@@ -372,7 +381,8 @@ Termbox is a library that provides a minimalistic API which allows the programme
 [2019-10-23][Active] https://github.com/rust-bitcoin/rust-bitcoin - Library with support for de/serialization, parsing and executing on data structures and network messages related to Bitcoin.
 [2019-10-23][Active] https://github.com/libra/libra - too well known.
 [2019-10-7][Active] https://github.com/paritytech/trie - A generic implementation of the Base-16 Modified Merkle Tree ("Trie") data structure: Trie DB (trie-db crate) and Trie Hash (trie-hash crate). explanation： https://zhuanlan.zhihu.com/p/46702178
-[2019-10-7][Active] https://github.com/tafia/quick-patricia-trie - A toy implementation of a (merkle)patricia tree as used in ethereum. The implementation is strongly inspired by parity patricia-trie. This is a total reimplementation from scratch so there are numerous differences.
+[2019-10-27][Active] https://github.com/tafia/quick-patricia-trie - A toy implementation of a (merkle)patricia tree as used in ethereum. The implementation is strongly inspired by parity patricia-trie. This is a total reimplementation from scratch so there are numerous differences.
+[2019-10-28][Active] https://github.com/exonum/exonum - An extensible open-source framework for creating private/permissioned blockchain applications. xonum can be used to create cryptographically powered distributed ledgers in virtually any problem domain, including FinTech, GovTech, and LegalTech. The Exonum framework is oriented towards creating permissioned blockchains, that is, blockchains with the known set of blockchain infrastructure providers.
 
 ### Some not relative stuff
 contribuing guide: https://github.com/nix-rust/nix/blob/master/CONTRIBUTING.md; https://github.com/rust-rosetta/rust-rosetta/blob/master/CONTRIBUTING.md
