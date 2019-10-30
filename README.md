@@ -24,6 +24,7 @@ https://github.com/mre/awesome-dynamic-analysis - A curated list of dynamic anal
 https://github.com/rust-embedded/awesome-embedded-rust - This is a curated list of resources related to embedded and low-level programming in the programming language Rust, including a list of useful crates.
 https://github.com/ZoranPandovski/al-go-rithms - Data Structures and Algorithms Tweet. Clean example implementations of data structures and algorithms written in different languages.
 https://github.com/not-yet-awesome-rust/not-yet-awesome-rust - A curated list of Rust code and resources that do NOT exist yet, but would be beneficial to the Rust community.
+https://github.com/rShetty/awesome-podcasts - awesome blogs, not limited to rust.
 
 ## Okey, Now the list
 
@@ -58,6 +59,8 @@ https://github.com/not-yet-awesome-rust/not-yet-awesome-rust - A curated list of
 [2019-10-29][Died] https://github.com/jauhien/iron-kaleidoscope - LLVM tutorial in Rust language
 [2019-10-29][Active] https://github.com/saschagrunert/kubeflow-data-science-on-steroids - The blog post about Kubeflow, including all materials
 [2019-10-29][Active] https://github.com/kelseyhightower/kubernetes-the-hard-way - Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts
+[2019-10-30][Active] https://github.com/rShetty/awesome-podcasts - awesome blogs, not limited to rust.
+[2019-10-30][Active] https://docs.rust-embedded.org/embedonomicon/ - The embedonomicon walks you through the process of creating a #![no_std] application from scratch and through the iterative process of building architecture-specific functionality for Cortex-M microcontrollers, specified, cortex-m-rt, msp430-rt and riscv-rt.
 
 Others:
 http://acm.timus.ru/help.aspx?topic=rust
@@ -92,7 +95,10 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-27][Active] https://github.com/bluss/rawpointer - Extra methods for raw pointers.
 [2019-10-27][Active] https://github.com/bluss/defmac - A macro to define lambda-like macros inline.
 [2019-10-27][Active] https://github.com/bluss/maplit - Rust container / collection literal macros for HashMap, HashSet, BTreeMap, BTreeSet.
-[2019-10-29][Active]https://awesomeopensource.com/project/lloydmeta/frunk - Functional generic type-level programming in Rust: HList, Coproduct, Generic, LabelledGeneric, Validated, Monoid and friends.
+[2019-10-29][Active] https://awesomeopensource.com/project/lloydmeta/frunk - Functional generic type-level programming in Rust: HList, Coproduct, Generic, LabelledGeneric, Validated, Monoid and friends.
+[2019-10-29][Active] https://github.com/saschagrunert/indextree - tree structure with multithreading support. This arena tree structure is using just a single Vec and numerical identifiers (indices in the vector) instead of reference counted pointers. This means there is no RefCell and mutability is handled in a way much more idiomatic to Rust through unique (&mut) access to the arena. The tree can be sent or shared across threads like a Vec. This enables general multiprocessing support like parallel tree traversals.
+[2019-10-30][Active] https://github.com/saschagrunert/fastcmp - A fast byte slice comparison library. The library is intended to provide a faster byte slice comparison than the standard library. Also raw string literals b"like this" are compareable this way.
+[2019-10-29][Active] https://github.com/rust-lang/stacker - A library to help grow the stack when it runs out of space.
 
 
 ### Design Pattern
@@ -131,6 +137,7 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-28][Active] https://github.com/Xudong-Huang/may - May is a high-performant library for programming stackful coroutines with which you can easily develop and maintain massive concurrent programs. It can be thought as the Rust version of the popular Goroutine.
 [2019-10-28][Active] https://github.com/Xudong-Huang/generator-rs - rust stackful generator library
 [2019-10-29][Active] https://github.com/dpc/mioco - Mioco provides green-threads (aka fibers) like eg. Goroutines in Go, for Rust. Rust community decided that futures should be main Rust async IO story, so you might want to look at tokio-fiber: coroutines as Futures project, which should have mioco-like API and allow easily porting code using mioco. ref: https://github.com/dpc/mioco.pre-0.9
+[2019-10-30][Active] https://github.com/nagisa/tokio-periodic - Asynchronous, cross-platform periodic timers. These timers (unlike in tokio-timer, which implements this in user-space) are implemented using the OS facilities in as zero-overhead manner as possible.
 
 
 ### Test
@@ -144,6 +151,7 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-27][Active] https://github.com/BurntSushi/quickcheck - QuickCheck is a way to do property based testing using randomly generated input. This crate comes with the ability to randomly generate and shrink integers, floats, tuples, booleans, lists, strings, options and results. It should be the same strategy used in Koen Claessen's QuickCheck for Haskell.
 [2019-10-27][Active] https://github.com/petertseng/exercism-rust https://github.com/exercism/rust - At the most basic level, Exercism is all about the tests. You can read more about how we think about test suites in the Exercism documentation.
 [2019-10-27][Died] https://github.com/nikomatsakis/rust-runtime-benchmarks - Some benchmarks for testing rustc performance. It was inspired by Ansible syntax because it is really easy to use and extend.
+[2019-10-30][Active] https://github.com/rust-fuzz/cargo-fuzz - cargo-fuzz is the recommended tool for fuzz testing Rust code. cargo-fuzz is itself not a fuzzer, but a tool to invoke a fuzzer. Currently, the only fuzzer it supports is libFuzzer (through the libfuzzer-sys crate), but it could be extended to support other fuzzers in the future.
 
 ### System & IO
 [2019-10-22][Active] https://github.com/tokio-rs/mio - Mio is a lightweight I/O library for Rust with a focus on adding as little overhead as possible over the OS abstractions.
@@ -170,7 +178,7 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-29][Active] https://github.com/redox-os/relibc - relibc is a portable POSIX C standard library written in Rust. It is under heavy development, and currently supports Redox and Linux. The motivation for this project is twofold: Reduce issues the redox crew was having with newlib, and create a safer alternative to a C standard library written in C. It is mainly designed to be used under redox, as an alternative to newlib, but it also supports linux syscalls via the sc crate.
 [2019-10-29][Active] https://github.com/fishinabarrel/linux-kernel-module-rust - Framework for writing Linux kernel modules in safe Rust.
 
-### Development & CI (Continuous Integration) or maintainments
+### Development, CI (Continuous Integration) or maintainments
 [2019-10-18][Active] https://github.com/rust-lang/rustup.rs
 [2019-10-18][Active] https://github.com/chyh1990/yaml-rust
 [2019-10-18][Active] https://github.com/crossbeam-rs/rfcs - There is a RPC process and templates I could ref for my own.
@@ -192,6 +200,9 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-29][Active] https://github.com/google/rerast - Rerast is a search/replace tool for Rust code using rules. A rule consists of a search pattern, a replacement and possibly some placeholders that can appear in both the search pattern and the replacement. Matching is done on syntax, not on text, so formatting doesn't matter. Placeholders are typed and must match the type found in the code for the rule to apply.
 [2019-10-29][Active] https://github.com/emoon/ProDBG - ProDBG is a new debugger under development that will support a variety of targets and operating systems. Currently it's in very early development and primary focusing on Mac as primary target.
 [2019-10-29][Active] https://github.com/saschagrunert/build-rust - The Docker based Rust build toolchain.
+[2019-10-29][Active] https://github.com/saschagrunert/path - IP based connection identification and tracing. This crate is highly inspired by the netfilter project, which provides connection tracking for TCP/IP based protocols. The timeout of a connection (per default 10 minutes) is handled completely internally by using the time crate.
+[2019-10-30][Active] https://github.com/rust-embedded/cross - “Zero setup” cross compilation and “cross testing” of Rust crates. cross provides all the ingredients needed for cross compilation without touching your system installation and provides an environment, cross toolchain and cross compiled libraries, that produces the most portable binaries. “cross testing” can test crates for architectures other than i686 and x86_64. The stable, beta and nightly channels are supported.
+[2019-10-30][Active] https://github.com/roblabla/cargo-travis - Record total test coverage across in-crate and external tests, and upload to coveralls.io (https://coveralls.io/). coveralls.io help you deliver code confidently by showing which parts of your code aren’t covered by your test suite. Free for open source repos. Pro accounts for private repos. Instant sign up through GitHub, Bitbucket, and Gitlab.
 
 ### contest 
 [2019-10-27][Died] https://github.com/petertseng/adventofcode-rs-2015 - 
@@ -229,6 +240,7 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-29][Active] https://github.com/vbarrielle/sprs - prs implements some sparse matrix data structures and linear algebra algorithms in pure Rust.
 [2019-10-29][Active] https://github.com/rust-lang/libm - The short term goal of this library is to enable math support (e.g. sin, atan2) for the wasm32-unknown-unknown target (cf. rust-lang/compiler-builtins). The longer term goal is to enable math support in the core crate.
 [2019-10-29][Active] https://github.com/strengthen/LeetCode - 
+[2019-10-30][Died] https://github.com/nagisa/math.rs - Software implementations of libm functions in Rust
 
 ### Data, Data opt/etl or Database/Datawarehouse opt relatives
 [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
@@ -262,11 +274,14 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-29][Active] https://github.com/andygrove/sqlparser-rs - The goal of this project is to build a SQL lexer and parser capable of parsing SQL that conforms with the ANSI/ISO SQL standard while also making it easy to support custom dialects so that this crate can be used as a foundation for vendor-specific parsers. This parser is currently being used by the DataFusion query engine and LocustDB.
 [2019-10-29][Active] https://github.com/cswinter/LocustDB - Massively parallel, high performance analytics database that will rapidly devour all of your data.
 [2019-10-29][Active] https://github.com/indradb/indradb - A graph database written in rust. IndraDB consists of a server and an underlying library. Most users would use the server, which is available via releases as pre-compiled binaries. But if you're a rust developer that wants to embed a graph database directly in your application, you can use the library. ref: https://github.com/indradb/python-client.
+[2019-10-30][Active] https://github.com/tikv/rust-prometheus - This is the Rust client library for Prometheus. The main Structures and APIs are ported from Go client.
+[2019-10-30][Active] https://github.com/erickt/rust-zmq - The zmq crate provides bindings for the libzmq library from the ZeroMQ project. The API exposed by zmq should be safe (in the usual Rust sense), but it follows the C API closely, so it is not very idiomatic. Also, support for libzmq API in "draft" state is considered out-of-scope for this crate; this includes currently, as of libzmq 4.3.3: Newer, thread-safe socket types, such as ZMQ_CLIENT and ZMQ_SERVER; The "poller" API. For a more modern, idiomatic approach to libzmq bindings, including draft API features, have a look at libzmq-rs(https://github.com/jean-airoldie/libzmq-rs).
 
 ### Data Format relative
 [2019-10-19][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
 [2019-10-29][Active] https://github.com/BurntSushi/rust-csv - A fast and flexible CSV reader and writer for Rust, with support for Serde. ref: https://docs.rs/csv/1.0.0/csv/tutorial/index.html.
 [2019-10-29][Active] https://github.com/J-F-Liu/lopdf - A Rust library for PDF document manipulation.
+[2019-10-29][Active] https://github.com/J-F-Liu/pom - PEG stands for parsing expression grammar, is a type of analytic formal grammar, i.e. it describes a formal language in terms of a set of rules for recognizing strings in the language. Unlike CFGs, PEGs cannot be ambiguous; if a string parses, it has exactly one valid parse tree. It could do the same thing like regex. Parsing xml/json/yaml/toml like dom, programming language code, or other structured docs. ref: https://bodil.lol/parser-combinators/
 
 ### ML-DL
 [2019-10-20][Active] https://github.com/RustAudio/deepspeech-rs - The library is open source and performs Speech-To-Text completely offline. They provide pretrained models for English. It binds to https://github.com/mozilla/DeepSpeech.
@@ -393,10 +408,11 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 [2019-10-27][Active] https://github.com/saschagrunert/webapp.rs - A web application completely written in Rust. https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471 and https://medium.com/@saschagrunert/lessons-learned-on-writing-web-applications-completely-in-rust-2080d0990287
 [2019-10-27][Active] https://github.com/saschagrunert/kubernix - Single dependency Kubernetes clusters for local testing, experimenting and development. This project aims to provide single dependency Kubernetes clusters for local testing, experimenting and development purposes.
 [2019-10-27][Active] https://awesomeopensource.com/project/djc/askama - Type-safe, compiled Jinja-like templates for Rust.
-[2019-10-28][Active] https://github.com/daogangtang/sapper - Sapper, a lightweight web framework, written in Rust. https://github.com/sappworks/sapper/blob/master/docs/Tutorial-cn.md
+[2019-10-28][Active] https://github.com/daogangtang/sapper - Sapper, a lightweight web framework, close to flask in python, written in Rust, relied on Hyper(https://github.com/hyperium/hyper). https://github.com/sappworks/sapper/blob/master/docs/Tutorial-cn.md
 [2019-10-28][Active] https://github.com/David-OConnor/seed - A Rust framework for creating web apps. https://seed-rs.org/ Engineering Rust Web Applications(https://erwabook.com/intro/)
 [2019-10-29][Active] https://github.com/valeriansaliou/vigil - Microservices Status Page. Monitors a distributed infrastructure and sends alerts (Slack, SMS, etc.). Vigil is an open-source Status Page you can host on your infrastructure, used to monitor all your servers and apps, and visible to your users (on a domain of your choice, eg. status.example.com). It is useful in microservices contexts to monitor both apps and backends. If a node goes down in your infrastructure, you receive a status change notification in a Slack channel, Email, Twilio SMS or/and XMPP. who use it? Crisp; Meili; miragespace; Redsmin; Image-Charts.
-[2019-10-29][Active] https://github.com/capnproto/capnproto-rust - Cap'n Proto is a type system for distributed systems. You can then use the capnp tool to generate code in a variety of programming languages. The generated code lets you produce and consume values of the types you've defined in your schema. Values are encoded in a format(https://capnproto.org/encoding.html) that is suitable not only for transmission over a network and persistence to disk, but also for zero-copy in-memory traversal. That is, you can completely skip serialization and deserialization! It's in this sense that Cap'n Proto is "infinity times faster" than alternatives like Protocol Buffers. https://github.com/capnproto/capnproto Cap'n Proto serialization/RPC system - core tools and C++ library
+[2019-10-29][Active] https://github.com/capnproto/capnproto-rust - Cap'n Proto is a type system for distributed systems. You can then use the capnp tool to generate code in a variety of programming languages. The generated code lets you produce and consume values of the types you've defined in your schema. Values are encoded in a format(https://capnproto.org/encoding.html) that is suitable not only for transmission over a network and persistence to disk, but also for zero-copy in-memory traversal. That is, you can completely skip serialization and deserialization! It's in this sense that Cap'n Proto is "infinity times faster" than alternatives like Protocol Buffers. [2019-10-30][Active] https://github.com/capnproto/capnproto Cap'n Proto serialization/RPC system - core tools and C++ library.
+[2019-10-30][Active] https://github.com/capnproto/capnproto-rust - Cap'n Proto is a type system for distributed systems. It is like COM+ as MS defined. https://dwrensha.github.io/capnproto-rust
 
 ### GUI/Game relatives
 [2019-10-19][Active] https://github.com/gfx-rs/gfx - A low-overhead Vulkan-like GPU API for Rust.
@@ -459,6 +475,32 @@ Termbox is a library that provides a minimalistic API which allows the programme
 [2019-10-23][Active] https://github.com/dcuddeback/libusb-sys - the libusb-sys crate provides declarations and linkage for the libusb C library. Following the *-sys package conventions, the libusb-sys crate does not define higher-level abstractions over the native libusb library functions.
 [2019-10-28][Active] https://github.com/rust-windowing/android-rs-glue - Glue between Rust and Android.
 [2019-10-29][Active] https://github.com/kennytm/rust-ios-android - Example project for building a library for iOS + Android in Rust. ref: https://github.com/Geal/rust_on_mobile
+[2019-10-30][Active] https://github.com/rust-embedded/itm - A Rust crate and tool itmdump to parse and dump ARM ITM packets(Instrumentation Trace Macrocell, arm log).
+[2019-10-30][Active] https://github.com/rust-embedded/gpio-cdev - rust-gpio-cdev is a Rust library/crate providing access to GPIO character device ABI. This API, stabilized with Linux v4.4, deprecates the legacy sysfs interface to GPIOs that is planned to be removed from the upstream kernel after year 2020 (which is coming up quickly). Use of this API is encouraged over the sysfs API used by this crate's predecessor sysfs_gpio if you don't need to target older kernels. For more information on differences see Sysfs GPIO vs GPIO Character Device.
+[2019-10-30][Active] https://github.com/rust-embedded/gpio-utils - GPIO Utils provides convenient access to GPIOs on a Linux system. The library builds on top of the sysfs interface to GPIOs exposed by the kernel and provides essential functionality required for most embedded systems.
+[2019-10-30][Active] https://github.com/rust-embedded/rust-i2cdev - The Rust i2cdev crate seeks to provide full access to the Linux i2cdev driver interface in Rust without the need to wrap any C code or directly make low-level system calls. The documentation for the i2cdev interace can be found at https://www.kernel.org/doc/Documentation/i2c/dev-interface and in the lm-sensors projects.
+[2019-10-30][Active] https://github.com/rust-embedded/linux-embedded-hal - Implementation of the `embedded-hal`(https://crates.io/crates/embedded-hal) traits for Linux devices.
+[2019-10-30][Active] https://github.com/rust-embedded/rust-spidev - The Rust spidev seeks to provide full access to the Linux spidev device in Rust without the need to wrap any C code or directly make low-level system calls. The documentation for the spidev interace can be found at https://www.kernel.org/doc/Documentation/spi/spidev.
+[2019-10-30][Active] https://github.com/rust-embedded/rust-sysfs-gpio - he sysfs_gpio crate provides access to the Linux sysfs GPIO interface (https://www.kernel.org/doc/Documentation/gpio/sysfs.txt). It seeks to provide an API that is safe, convenient, and efficient and supports exporting, unexporting, reading, writing and waiting for interrupts on pins. Many devices such as the Raspberry Pi or Beaglebone Black provide userspace access to a number of GPIO peripherals. The standard kernel API for providing access to these GPIOs is via sysfs. You might want to also check out the gpio-utils Project for a convenient way to associate names with pins and export them as part of system boot. That project uses this library.
+[2019-10-30][Active] https://github.com/rust-embedded/rust-sysfs-pwm - Linux PWM Access via Sysfs in Rust. A rust library/crate providing access to the Linux sysfs PWM interface (https://www.kernel.org/doc/Documentation/pwm.txt). It seeks to provide an API that is safe, convenient, and efficient.
+[2019-10-30][Active] https://github.com/rust-embedded/rust-raspi3-OS-tutorials - Rust bare-metal and OS tutorials on the Raspberry Pi. This is a work-in-progress rewrite, started on September 2019. You can find the original version of the tutorials here(https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/original_version). They are worth checking out for some advanced features that are not yet rewritten, like virtual memory or exception handling. They will be ported over soon, though (if time permits).
+[2019-10-30][Active] https://github.com/rust-embedded/alloc-cortex-m - A heap allocator for Cortex-M processors.
+[2019-10-30][Active] https://github.com/rust-embedded/arm-dcc - Debug Communication Channel (DCC) API(https://developer.arm.com/docs/dui0471/latest/debug-communications-channel)
+[2019-10-30][Active] https://github.com/rust-embedded/showcase - Awesome embedded projects by the Rust community! Preview:
+[2019-10-30][Active] https://github.com/rust-embedded/riscv - Low level access to RISC-V processors.
+[2019-10-30][Active] https://github.com/rust-embedded/riscv-rt - Minimal runtime / startup for RISC-V CPU's.
+[2019-10-30][Active] https://github.com/rust-embedded/cortex-m - Low level access to Cortex-M processors
+[2019-10-30][Active] https://github.com/rust-embedded/cortex-m-rt - Startup code and minimal runtime for Cortex-M microcontrollers.
+[2019-10-30][Active] https://github.com/rtfm-rs/cortex-m-rtfm - Real Time For the Masses (RTFM) framework for ARM Cortex-M microcontrollers https://rtfm.rs
+[2019-10-30][Active] https://github.com/rust-embedded/cortex-m-quickstart - Template to develop bare metal applications for Cortex-M microcontrollers.
+[2019-10-30][Active] https://github.com/rust-embedded/riscv - Low level access to RISC-V processors.
+[2019-10-30][Active] https://github.com/rust-embedded/fixedvec-rs - fixedvec is a Rust library/crate providing a heapless version of the Rust vector type. Although more limited than the libstd version, fixedvec provides a much-needed "managed" array type for embedded systems or other projects that cannot rely on the heap.
+[2019-10-30][Active] https://github.com/rust-embedded/register-rs - Unified interface for type-safe MMIO(Memory mapping I/O) and CPU register access in Rust.
+[2019-10-30][Active] https://github.com/rust-embedded/cargo-binutils - Cargo subcommands to invoke the LLVM tools shipped with the Rust toolchain
+[2019-10-30][Active] https://github.com/rust-embedded/wg#the-tools-team - Embedded devices Working Group
+[2019-10-30][Active] https://github.com/rust-embedded/book - Documentation on how to use the Rust Programming Language to develop firmware for bare metal (microcontroller) devices
+
+
 
 ### Others
 [2019-10-23][Active] https://github.com/kevinmehall/rust-peg - rust-peg is a simple yet flexible parser generator based on the Parsing Expression Grammar formalism. It provides a Rust macro that builds a recursive descent parser from a concise definition of the grammar.
