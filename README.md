@@ -284,6 +284,7 @@ https://github.com/rust-lang/rfcs - RFCs
 [2019-10-29][Active] https://github.com/J-F-Liu/pom - PEG stands for parsing expression grammar, is a type of analytic formal grammar, i.e. it describes a formal language in terms of a set of rules for recognizing strings in the language. Unlike CFGs, PEGs cannot be ambiguous; if a string parses, it has exactly one valid parse tree. It could do the same thing like regex. Parsing xml/json/yaml/toml like dom, programming language code, or other structured docs. ref: https://bodil.lol/parser-combinators/
 
 ### ML-DL
+[2019-11-03][Active] https://github.com/weld-project/weld - High-performance runtime for data analytics applications https://www.weld.rs
 [2019-10-20][Active] https://github.com/RustAudio/deepspeech-rs - The library is open source and performs Speech-To-Text completely offline. They provide pretrained models for English. It binds to https://github.com/mozilla/DeepSpeech.
 [2019-10-22][Died] https://github.com/AtheMathmo/rusty-machine -Rusty-machine is a general purpose machine learning library implemented entirely in Rust. It aims to combine speed and ease of use - without requiring a huge number of external dependencies.
 [2019-10-22][Died] https://github.com/AtheMathmo/rulinalg - Rulinalg is a linear algebra library written in Rust that doesn't require heavy external dependencies. The goal of rulinalg is to provide efficient implementations of common linear algebra techniques in Rust.
