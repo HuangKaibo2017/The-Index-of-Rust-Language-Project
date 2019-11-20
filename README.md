@@ -392,7 +392,7 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 * [2019-10-27][Active] https://github.com/mesalock-linux/mesalink - MesaLink is a memory-safe and OpenSSL-compatible TLS library. MesaLink has been in production at Baidu with >10 million monthly active users. website: https://mesalink.io.
 * [2019-10-28][Active] https://github.com/nayuki/QR-Code-generator - This project aims to be the best, clearest QR Code generator library in multiple languages. The primary goals are flexible options and absolute correctness. Secondary goals are compact implementation size and good documentation comments.
 
-### Server (WEB, middle layer, microserive and etc.)
+### Server (WEB, middle layer, microserive, serverless and etc.)
 * [2019-10-18][Active] https://github.com/nickel-org/nickel.rs
 * [2019-10-22][Active] https://github.com/SergioBenitez/Rocket - Rocket is a web framework for Rust (nightly) with a focus on ease-of-use, expressibility, and speed. 
 * [2019-10-22][Active] https://github.com/websockets-rs/rust-websocket - Rust-WebSocket is a WebSocket (RFC6455) library written in Rust. Rust-WebSocket provides a framework for dealing with WebSocket connections (both clients and servers). The library is currently in an experimental state, but provides functionality for both normal and secure WebSockets, a message level API supporting fragmentation, a data frame level API, and the ability to extend and customize behaviour.
@@ -414,6 +414,7 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 * [2019-10-29][Active] https://github.com/valeriansaliou/vigil - Microservices Status Page. Monitors a distributed infrastructure and sends alerts (Slack, SMS, etc.). Vigil is an open-source Status Page you can host on your infrastructure, used to monitor all your servers and apps, and visible to your users (on a domain of your choice, eg. status.example.com). It is useful in microservices contexts to monitor both apps and backends. If a node goes down in your infrastructure, you receive a status change notification in a Slack channel, Email, Twilio SMS or/and XMPP. who use it? Crisp; Meili; miragespace; Redsmin; Image-Charts.
 * [2019-10-29][Active] https://github.com/capnproto/capnproto-rust - Cap'n Proto is a type system for distributed systems. You can then use the capnp tool to generate code in a variety of programming languages. The generated code lets you produce and consume values of the types you've defined in your schema. Values are encoded in a format(https://capnproto.org/encoding.html) that is suitable not only for transmission over a network and persistence to disk, but also for zero-copy in-memory traversal. That is, you can completely skip serialization and deserialization! It's in this sense that Cap'n Proto is "infinity times faster" than alternatives like Protocol Buffers. * [2019-10-30][Active] https://github.com/capnproto/capnproto Cap'n Proto serialization/RPC system - core tools and C++ library.
 * [2019-10-30][Active] https://github.com/capnproto/capnproto-rust - Cap'n Proto is a type system for distributed systems. It is like COM+ as MS defined. https://dwrensha.github.io/capnproto-rust
+* [2019-11-20][Active] https://github.com/apache/openwhisk - open source serverless cloud platform, OpenWhisk - https://medium.com/the-theam-journey/hands-on-iot-applications-with-openwhisk-and-rust-acb9ef5bc166
 
 ### GUI/Game relatives
 * [2019-10-19][Active] https://github.com/gfx-rs/gfx - A low-overhead Vulkan-like GPU API for Rust.
@@ -469,6 +470,7 @@ Termbox is a library that provides a minimalistic API which allows the programme
 * [2019-10-28][Active] https://github.com/rust-analyzer/rust-analyzer - An experimental Rust compiler front-end for IDEs.
 * [2019-10-28][Active] https://github.com/dtolnay/syn - Parser for Rust source code. As development helper? Debug helper?
 * [2019-10-29][Active] https://github.com/alexcrichton/curl-rust - Rust bindings to libcurl
+* [2019-11-20][Active] https://github.com/servo/ - The Servo Browser
 
 ### IoT
 * [2019-10-23][Active] https://github.com/dcuddeback/termios-rs - The termios crate provides safe bindings for the Rust programming language to the terminal I/O interface implemented by Unix operating systems.
