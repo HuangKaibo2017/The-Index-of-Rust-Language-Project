@@ -241,6 +241,7 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-29][Active] https://github.com/rust-lang/libm - The short term goal of this library is to enable math support (e.g. sin, atan2) for the wasm32-unknown-unknown target (cf. rust-lang/compiler-builtins). The longer term goal is to enable math support in the core crate.
 * [2019-10-29][Active] https://github.com/strengthen/LeetCode - 
 * [2019-10-30][Died] https://github.com/nagisa/math.rs - Software implementations of libm functions in Rust
+* [2019-11-25][Active] https://github.com/huonw/fast-math - Fast, approximate versions of mathematical functions.
 
 ### Data, Data opt/etl or Database/Datawarehouse opt relatives
 * [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
@@ -302,6 +303,7 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-28][Active] https://github.com/jwilm/alacritty - A cross-platform, GPU-accelerated terminal emulator. Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it. Alacritty currently supports macOS, Linux, BSD, and Windows.
 * [2019-10-29][Active] https://github.com/spearow/juice - The Hacker's Machine Learning Engine (formerly known as leaf). This is the workspace projet for: juice(https://github.com/spearow/juice/blob/master/juice/README.md) - machine learning frameworks for hackers; coaster(https://github.com/spearow/juice/blob/master/coaster/README.md) - underlying math abstraction; coaster-nn(https://github.com/spearow/juice/blob/master/coaster-nn/README.md); coaster-blas(https://github.com/spearow/juice/blob/master/coaster-blas/README.md); greenglas (https://github.com/spearow/juice/blob/master/greenglas/README.md) - a data preprocessing framework; juice-examples(https://github.com/spearow/juice/blob/master/juice-examples/README.md) - mnist demo.
 
+
 ### InterActive with Other Programming-Language/Platform
 * [2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
 * [2019-10-18][Active] https://github.com/alexcrichton/cc-rs - Compile c/c++ code to binary and call by Rust. https://docs.rs/cc
@@ -321,6 +323,7 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-29][Active] https://github.com/eqrion/cbindgen - A project for generating C bindings from Rust code
 * [2019-10-29][Active] https://github.com/KDE/rust-qt-binding-generator - Generate bindings to use Rust code in Qt and QML. This code generator gets you started quickly to use Rust code from Qt and QML. In other words, it helps to create a Qt based GUI on top of Rust code. Qt is a mature cross-platform graphical user interface library. Rust is a new programming language with strong compile time checks and a modern syntax.
 * [2019-10-29][Active] https://github.com/capnproto/capnproto-rust - Cap'n Proto is a type system for distributed systems. You can then use the capnp tool to generate code in a variety of programming languages. The generated code lets you produce and consume values of the types you've defined in your schema. Values are encoded in a format that is suitable not only for transmission over a network and persistence to disk, but also for zero-copy in-memory traversal. That is, you can completely skip serialization and deserialization! It's in this sense that Cap'n Proto is "infinity times faster" than alternatives like Protocol Buffers.
+* [2019-11-22][Active] https://github.com/TheDan64/inkwell - It's a New Kind of Wrapper for Exposing LLVM (Safely) https://thedan64.github.io/inkwell/
 
 
 ### Middleware relatives
@@ -550,6 +553,7 @@ at your option.
 * https://github.com/bluss - I work on Rust, I teach Rust.
 * https://github.com/saschagrunert
 * https://github.com/Xudong-Huang - coroutines geek
+* https://github.com/huonw
 
 ## Other relative stuff
 * https://github.com/crossbario - Seamless connectivity for the IoT and real-time microservices.  https://crossbar.io
