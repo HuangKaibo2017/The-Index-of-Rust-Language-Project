@@ -99,7 +99,9 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-29][Active] https://github.com/saschagrunert/indextree - tree structure with multithreading support. This arena tree structure is using just a single Vec and numerical identifiers (indices in the vector) instead of reference counted pointers. This means there is no RefCell and mutability is handled in a way much more idiomatic to Rust through unique (&mut) access to the arena. The tree can be sent or shared across threads like a Vec. This enables general multiprocessing support like parallel tree traversals.
 * [2019-10-30][Active] https://github.com/saschagrunert/fastcmp - A fast byte slice comparison library. The library is intended to provide a faster byte slice comparison than the standard library. Also raw string literals b"like this" are compareable this way.
 * [2019-10-29][Active] https://github.com/rust-lang/stacker - A library to help grow the stack when it runs out of space.
-
+* [2019-11-25][Active] https://github.com/huonw/var - A Rust macro for declaring and initialising multiple mutable variables in a single statement.
+* [2019-11-25][Active] https://github.com/goffrie/redfa - A regular expression and DFA library. Supports parsing and manipulating simple regular expressions over Unicode codepoints, and converting them to DFAs. Also has an implementation of Hopcroft's algorithm for DFA minimization.
+* [2019-11-25][Died] https://github.com/reem/rust-lazy - Lazy evaluation in Rust.
 
 ### Design Pattern
 * [2019-10-25][Active] https://github.com/rust-lang-nursery/lazy-static.rs - it is possible to have statics that require code to be executed at runtime in order to be initialized. This includes anything requiring heap allocations, like vectors or hash maps, as well as anything that requires non-const function calls to be computed.
@@ -177,6 +179,8 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-27][Active] https://github.com/danburkert/memmap-rs - cross-platform Rust API for memory mapped IO 
 * [2019-10-29][Active] https://github.com/redox-os/relibc - relibc is a portable POSIX C standard library written in Rust. It is under heavy development, and currently supports Redox and Linux. The motivation for this project is twofold: Reduce issues the redox crew was having with newlib, and create a safer alternative to a C standard library written in C. It is mainly designed to be used under redox, as an alternative to newlib, but it also supports linux syscalls via the sc crate.
 * [2019-10-29][Active] https://github.com/fishinabarrel/linux-kernel-module-rust - Framework for writing Linux kernel modules in safe Rust.
+* [2019-11-25][Active] https://github.com/Manishearth/rust-gc - Simple tracing (mark and sweep) garbage collector for Rust
+* [2019-11-25][Active] https://github.com/shepmaster/cupid - Get information about the x86 and x86_64 processor
 
 ### Development, CI (Continuous Integration) or maintainments
 * [2019-10-18][Active] https://github.com/rust-lang/rustup.rs
@@ -240,8 +244,10 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-29][Active] https://github.com/vbarrielle/sprs - prs implements some sparse matrix data structures and linear algebra algorithms in pure Rust.
 * [2019-10-29][Active] https://github.com/rust-lang/libm - The short term goal of this library is to enable math support (e.g. sin, atan2) for the wasm32-unknown-unknown target (cf. rust-lang/compiler-builtins). The longer term goal is to enable math support in the core crate.
 * [2019-10-29][Active] https://github.com/strengthen/LeetCode - 
-* [2019-10-30][Died] https://github.com/nagisa/math.rs - Software implementations of libm functions in Rust
+* [2019-10-30][Died] https://github.com/nagisa/math.rs - Math software implementations of libm functions in Rust. This is supposed to be linked into Rust binaries on systems where libm is not available.
 * [2019-11-25][Active] https://github.com/huonw/fast-math - Fast, approximate versions of mathematical functions.
+* [2019-11-25][Active] https://github.com/huonw/ieee754 - Low-level manipulations of IEEE754 floating-point numbers.
+* [2019-11-25][Active] https://github.com/huonw/hamming - Compute the Hamming weight of a vector and the Hamming distance between two efficiently http://huonw.github.io/hamming/hamming
 
 ### Data, Data opt/etl or Database/Datawarehouse opt relatives
 * [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
@@ -280,7 +286,7 @@ https://github.com/rust-lang/rfcs - RFCs
 
 ### Data Format relative
 * [2019-10-19][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
-* [2019-10-29][Active] https://github.com/BurntSushi/rust-csv - A fast and flexible CSV reader and writer for Rust, with support for Serde. ref: https://docs.rs/csv/1.0.0/csv/tutorial/index.html.
+* [2019-11-25][Active] https://github.com/BurntSushi/rust-csv - A fast and flexible CSV reader and writer for Rust, with support for Serde. ref: https://docs.rs/csv/1.0.0/csv/tutorial/index.html.
 * [2019-10-29][Active] https://github.com/J-F-Liu/lopdf - A Rust library for PDF document manipulation.
 * [2019-10-29][Active] https://github.com/J-F-Liu/pom - PEG stands for parsing expression grammar, is a type of analytic formal grammar, i.e. it describes a formal language in terms of a set of rules for recognizing strings in the language. Unlike CFGs, PEGs cannot be ambiguous; if a string parses, it has exactly one valid parse tree. It could do the same thing like regex. Parsing xml/json/yaml/toml like dom, programming language code, or other structured docs. ref: https://bodil.lol/parser-combinators/
 
@@ -302,11 +308,12 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-28][Active] https://github.com/calebwin/emu - Emu is a framework/compiler for GPU acceleration of Rust, GPU programming. It is a procedural macro that accept pure, safe Rust code as input, identifies portions to attempt to accelerate, and automatically writes in code to run portions on the GPU instead of the CPU.
 * [2019-10-28][Active] https://github.com/jwilm/alacritty - A cross-platform, GPU-accelerated terminal emulator. Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it. Alacritty currently supports macOS, Linux, BSD, and Windows.
 * [2019-10-29][Active] https://github.com/spearow/juice - The Hacker's Machine Learning Engine (formerly known as leaf). This is the workspace projet for: juice(https://github.com/spearow/juice/blob/master/juice/README.md) - machine learning frameworks for hackers; coaster(https://github.com/spearow/juice/blob/master/coaster/README.md) - underlying math abstraction; coaster-nn(https://github.com/spearow/juice/blob/master/coaster-nn/README.md); coaster-blas(https://github.com/spearow/juice/blob/master/coaster-blas/README.md); greenglas (https://github.com/spearow/juice/blob/master/greenglas/README.md) - a data preprocessing framework; juice-examples(https://github.com/spearow/juice/blob/master/juice-examples/README.md) - mnist demo.
+* [2019-11-25][Died] https://github.com/daniel-e/rustml - Machine learning in Rust.
 
 
 ### InterActive with Other Programming-Language/Platform
 * [2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
-* [2019-10-18][Active] https://github.com/alexcrichton/cc-rs - Compile c/c++ code to binary and call by Rust. https://docs.rs/cc
+* [2019-11-25][Active] https://github.com/alexcrichton/cc-rs - Compile c/c++ code to binary and call by Rust. https://docs.rs/cc
 * [2019-10-19][Active] https://github.com/eqrion/cbindgen - A project for generating C bindings from Rust code.
 * [2019-10-22][Active] https://github.com/rust-lang/libc - Raw bindings to platform APIs for Rust. libc provides all of the definitions necessary to easily interoperate with C code (or "C-like" code) on each of the platforms that Rust supports. This includes type definitions (e.g. c_int), constants (e.g. EINVAL) as well as function headers (e.g. malloc).
 * [2019-10-23][Active] https://github.com/dgrunwald/rust-cpython - Rust bindings for the python interpreter.
@@ -324,12 +331,14 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-29][Active] https://github.com/KDE/rust-qt-binding-generator - Generate bindings to use Rust code in Qt and QML. This code generator gets you started quickly to use Rust code from Qt and QML. In other words, it helps to create a Qt based GUI on top of Rust code. Qt is a mature cross-platform graphical user interface library. Rust is a new programming language with strong compile time checks and a modern syntax.
 * [2019-10-29][Active] https://github.com/capnproto/capnproto-rust - Cap'n Proto is a type system for distributed systems. You can then use the capnp tool to generate code in a variety of programming languages. The generated code lets you produce and consume values of the types you've defined in your schema. Values are encoded in a format that is suitable not only for transmission over a network and persistence to disk, but also for zero-copy in-memory traversal. That is, you can completely skip serialization and deserialization! It's in this sense that Cap'n Proto is "infinity times faster" than alternatives like Protocol Buffers.
 * [2019-11-22][Active] https://github.com/TheDan64/inkwell - It's a New Kind of Wrapper for Exposing LLVM (Safely) https://thedan64.github.io/inkwell/
+* [2019-11-25][Dicd] https://github.com/huonw/python_mixin - python_mixin, Run Python code to make your Rust code, in your Rust code. Probably not, this is mainly me experimenting with more language plugins. A more portable/usable way to do this sort of code-generation is via a Cargo build script plus the include! macro.
 
 
 ### Middleware relatives
 * [2019-10-18][Active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
 * [2019-10-18][Active] https://github.com/crossbeam-rs/crossbeam - Tools for concurrent programming in Rust, RPC, PIPE, SYNC and etc. 
 * [2019-10-25][Active] https://github.com/jean-airoldie/libzmq-rs - This crate builds and generates bindings from source. This means that you do not need to install libzmq. we will only use a subset of libzmq. If you'd rather have a complete port, check out rust-zmq. (https://github.com/erickt/rust-zmq)
+* [2019-11-25][Active] https://github.com/erickt/rust-zmq - The zmq crate provides bindings for the libzmq library from the ZeroMQ project. The API exposed by zmq should be safe (in the usual Rust sense), but it follows the C API closely, so it is not very idiomatic. Also, support for libzmq API in "draft" state is considered out-of-scope for this crate; this includes currently, as of libzmq 4.3.3
 * [2019-10-29][Active] https://github.com/oam-dev/rudr - Rudr (https://github.com/oam-dev/spec) is an implementation of the Open Application Model (OAM,https://openappmodel.io/) that allow users to deploy and manage applications easily on any Kubernetes cluster with separation of concerns of application developer and operator. sponsored by MS and Alibaba group.
 
 
@@ -399,7 +408,7 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 * [2019-10-18][Active] https://github.com/nickel-org/nickel.rs
 * [2019-10-22][Active] https://github.com/SergioBenitez/Rocket - Rocket is a web framework for Rust (nightly) with a focus on ease-of-use, expressibility, and speed. 
 * [2019-10-22][Active] https://github.com/websockets-rs/rust-websocket - Rust-WebSocket is a WebSocket (RFC6455) library written in Rust. Rust-WebSocket provides a framework for dealing with WebSocket connections (both clients and servers). The library is currently in an experimental state, but provides functionality for both normal and secure WebSockets, a message level API supporting fragmentation, a data frame level API, and the ability to extend and customize behaviour.
-* [2019-10-22][Active] https://github.com/iron/iron - An Extensible, Concurrent Web Framework for Rust http://ironframework.io
+* [2019-11-25][Active] https://github.com/iron/iron - An Extensible, Concurrent Web Framework for Rust http://ironframework.io
 * [2019-10-23][Died] https://github.com/rustless/rustless - REST-like API micro-framework for Rust. Works with Iron. 
 * [2019-10-23][Active] https://github.com/flosse/rust-web-framework-comparison - A comparison of some web frameworks and libs written in Rust.
 * [2019-10-23][Active] https://github.com/servo/rust-mozjs - Rust bindings to SpiderMonkey, which is the code name for the first JavaScript engine, written by Brendan Eich at Netscape Communications, later released as open-source and currently maintained by the Mozilla Foundation. 
@@ -408,7 +417,7 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 * [2019-10-25][Active] https://github.com/tailhook/vagga - Vagga is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.Runs containerized process as a child of current shell, no attach/detach hell;Images are automatically rebuilt and versioned;Fully userspace containers, no need for elevated privileges like for Docker;Running programs in linux containers (not a full virtualization like Vagrant);manage trees of processes (so you run your redis-python-nginx server with one command);Compatibility with Vagrant-LXC and Docker_. ref: https://vagga.readthedocs.org/
 * [2019-10-25][Active] https://github.com/Keats/tera - A template engine for Rust based on Jinja2/Django https://tera.netlify.com/
 * [2019-10-25][Active] https://github.com/pepsighan/rust-web-developer-roadmap - Below you can find a chart demonstrating the path you may take and the libraries you may require to become a Rust Web Developer. This chart is made with inspiration from Golang Developer Roadmap(https://github.com/Alikhll/golang-developer-roadmap/).
-* [2019-10-27][Active] https://github.com/nickel-org/nickel.rs - An expressjs inspired web framework for Rust http://nickel-org.github.io/
+* [2019-11-25][Active] https://github.com/nickel-org/nickel.rs - An expressjs inspired web framework for Rust http://nickel-org.github.io/. nickel.rs is a simple and lightweight foundation for web applications written in Rust. Its API is inspired by the popular express framework for JavaScript.
 * [2019-10-27][Active] https://github.com/saschagrunert/webapp.rs - A web application completely written in Rust. https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471 and https://medium.com/@saschagrunert/lessons-learned-on-writing-web-applications-completely-in-rust-2080d0990287
 * [2019-10-27][Active] https://github.com/saschagrunert/kubernix - Single dependency Kubernetes clusters for local testing, experimenting and development. This project aims to provide single dependency Kubernetes clusters for local testing, experimenting and development purposes.
 * [2019-10-27][Active] https://awesomeopensource.com/project/djc/askama - Type-safe, compiled Jinja-like templates for Rust.
@@ -435,9 +444,12 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 * [2019-10-28][Active] https://github.com/nical/lyon - 2D graphics rendering on the GPU in rust using path tessellation. For now the goal is to provide efficient SVG-compliant path tessellation tools to help with rendering vector graphics on the GPU. For now think of this library as a way to turn complex paths into triangles for use in your own rendering engine. The intent is for this library to be useful in projects like Servo and games.
 * [2019-10-28][Active] https://github.com/flutter-rs/flutter-rs - Build beautiful desktop apps with flutter and rust. Support Hot reload;MethodChannel, EventChannel;Async runtime using tokio;ystem dialogs;Clipboard support;Cross platform support, Runs on mac, windows, linux;Support distribution format: (windows NSIS, mac app, mac dmg, linux snap).
 * [2019-10-29][Active] https://github.com/GodotNativeTools/godot-rust - Rust bindings for GDNative. Godot provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel. Godot is completely free and open-source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.
+* [2019-11-25][Active] https://github.com/gsingh93/ggp-rs - A library for creating GGP (general game playing) players in Rust
+* [2019-11-25][Active] https://github.com/Twinklebear/tobj - A tiny OBJ loader, inspired by Syoyo's excellent tinyobjloader(https://github.com/syoyo/tinyobjloader - Tiny but powerful single file wavefront obj loader written in C++03. No dependency except for C++ STL. It can parse over 10M polygons with moderate memory and time.) Aims to be a simple and lightweight option for loading OBJ files, just returns two vecs containing loaded models and materials. 
 
 ### Web UI
 * [2019-10-27][Active] https://github.com/ritz078/transform - A polyglot web converter. https://transform.tools
+* [2019-11-25][Active] https://github.com/nickel-org/rust-mustache - A Logic-less templates inspired by ctemplate and et, Mustache is a framework-agnostic way to render logic-free views.
 
 ### UI/Console tools
 * [2019-10-18][Active] https://github.com/rust-lang-nursery/mdBook compile md via Rust.
@@ -467,7 +479,7 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 * [2019-10-20][Active] https://github.com/servo/servo - The Servo Browser Engine https://servo.org/ Servo is a prototype web browser engine written in the Rust language. It is currently developed on 64-bit macOS, 64-bit Linux, 64-bit Windows, and Android.
 * [2019-10-22][Active] https://github.com/racer-rust/racer - Rust Code Completion utility.
 * [2019-10-22][Active] https://github.com/xi-editor/xi-editor - an Editor by Rust.
-* [2019-10-22][Active] https://github.com/clap-rs/clap - A full featured, fast Command Line Argument Parser for Rust https://clap.rs.
+* [2019-11-25][Active] https://github.com/clap-rs/clap - A full featured, fast Command Line Argument Parser for Rust https://clap.rs.
 * [2019-10-28][Active] https://github.com/redox-os/termion - Termion is a pure Rust, bindless library for low-level handling, manipulating and reading information about terminals. This provides a full-featured alternative to Termbox. ref: https://github.com/nsf/termbox-go
 Termbox is a library that provides a minimalistic API which allows the programmer to write text-based user interfaces. The library is crossplatform and has both terminal-based implementations on *nix operating systems and a winapi console based implementation for windows operating systems. The basic idea is an abstraction of the greatest common subset of features available on all major terminals and other terminal-like APIs in a minimalistic fashion. Small API means it is easy to implement, test, maintain and learn it, that's what makes the termbox a distinct library in its area.
 * [2019-10-28][Active] https://github.com/rust-analyzer/rust-analyzer - An experimental Rust compiler front-end for IDEs.
