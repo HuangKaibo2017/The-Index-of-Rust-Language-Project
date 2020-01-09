@@ -403,6 +403,7 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 * [2019-10-26][Active] https://github.com/sekey/sekey - Use Touch ID / Secure Enclave for SSH Authentication!
 * [2019-10-27][Active] https://github.com/mesalock-linux/mesalink - MesaLink is a memory-safe and OpenSSL-compatible TLS library. MesaLink has been in production at Baidu with >10 million monthly active users. website: https://mesalink.io.
 * [2019-10-28][Active] https://github.com/nayuki/QR-Code-generator - This project aims to be the best, clearest QR Code generator library in multiple languages. The primary goals are flexible options and absolute correctness. Secondary goals are compact implementation size and good documentation comments.
+* [2020-01-09][active] https://github.com/apache/incubator-teaclave-sgx-sdk - Rust SGX SDK provides the ability to write Intel SGX applications. Software Guard Extensions (Intel® SGX)保护选定的代码和数据不被泄露和修改。
 
 ### Server (WEB, middle layer, microserive, serverless and etc.)
 * [2019-10-18][Active] https://github.com/nickel-org/nickel.rs
