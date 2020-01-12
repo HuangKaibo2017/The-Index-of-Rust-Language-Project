@@ -309,7 +309,8 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-28][Active] https://github.com/jwilm/alacritty - A cross-platform, GPU-accelerated terminal emulator. Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it. Alacritty currently supports macOS, Linux, BSD, and Windows.
 * [2019-10-29][Active] https://github.com/spearow/juice - The Hacker's Machine Learning Engine (formerly known as leaf). This is the workspace projet for: juice(https://github.com/spearow/juice/blob/master/juice/README.md) - machine learning frameworks for hackers; coaster(https://github.com/spearow/juice/blob/master/coaster/README.md) - underlying math abstraction; coaster-nn(https://github.com/spearow/juice/blob/master/coaster-nn/README.md); coaster-blas(https://github.com/spearow/juice/blob/master/coaster-blas/README.md); greenglas (https://github.com/spearow/juice/blob/master/greenglas/README.md) - a data preprocessing framework; juice-examples(https://github.com/spearow/juice/blob/master/juice-examples/README.md) - mnist demo.
 * [2019-11-25][Died] https://github.com/daniel-e/rustml - Machine learning in Rust.
-
+* [2020-01-12][Died] https://github.com/maciejkula/rustlearn - Machine learning crate for Rust. For full usage details, see the API documentation(https://maciejkula.github.io/rustlearn/doc/rustlearn/).
+* [2020-01-12][Died] https://github.com/Entscheider/stamm - Stamm is a rust library for creating decision trees and random forests in a very general way. Decision trees are used in machine learning for classification and regression. A random forest bundles some decision trees for making a more precise classification or regression.
 
 ### InterActive with Other Programming-Language/Platform
 * [2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
@@ -378,7 +379,7 @@ https://github.com/notify-rs/notify - Cross-platform filesystem notification lib
 
 ### Serialization
 * [2019-10-23][Active] https://github.com/BurntSushi/byteorder - Rust library for reading/writing numbers in big-endian and little-endian.
-* [2019-10-20][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
+* [2020-01-12][Active] https://github.com/serde-rs/serde - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
 * [2019-10-20][Active] https://github.com/dtolnay/typetag - Serde serializable and deserializable trait objects .
 * [2019-10-22][Active] https://github.com/stepancheg/rust-protobuf - Rust implementation of Google protocol buffers. Base on https://github.com/carllerche/bytes.
 * [2019-10-22][Active] https://github.com/tafia/quick-protobuf - 
