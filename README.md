@@ -104,6 +104,7 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-11-25][Died] https://github.com/reem/rust-lazy - Lazy evaluation in Rust.
 * [2020-01-13][Died] https://github.com/Armavica/rustlex - Lexical analysers(词法分析) generator for Rust, written in Rust.
 
+
 ### Design Pattern
 * [2019-10-25][Active] https://github.com/rust-lang-nursery/lazy-static.rs - it is possible to have statics that require code to be executed at runtime in order to be initialized. This includes anything requiring heap allocations, like vectors or hash maps, as well as anything that requires non-const function calls to be computed.
 * [2019-10-25][Active] https://github.com/dtolnay/objekt - his crate provides a Clone trait that can be used in trait objects, and a clone_box function that can clone any sized or dynamically sized implementation of Clone. Types that implement the standard library's std::clone::Clone trait are automatically usable this way. more with: https://github.com/kardeiz/objekt-clonable
@@ -256,6 +257,9 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-11-25][Active] https://github.com/huonw/fast-math - Fast, approximate versions of mathematical functions.
 * [2019-11-25][Active] https://github.com/huonw/ieee754 - Low-level manipulations of IEEE754 floating-point numbers.
 * [2019-11-25][Active] https://github.com/huonw/hamming - Compute the Hamming weight of a vector and the Hamming distance between two efficiently http://huonw.github.io/hamming/hamming
+* [2020-01-13][Active] https://github.com/blas-lapack-rs/blas-src - BLAS(Basic Linear Algebra Subprograms基本线性计算) source of choice (https://github.com/blas-lapack-rs/blas-lapack-rs.github.io/wiki).
+* [2020-01-13][Active]  https://github.com/blas-lapack-rs/openblas-src - Source of BLAS and LAPACK via OpenBLAS (https://blas-lapack-rs.github.io/usage).
+
 
 ### Data, Data opt/etl or Database/Datawarehouse opt relatives
 * [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
@@ -323,7 +327,12 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2020-01-12][Died] https://github.com/maciejkula/rustlearn - Machine learning crate for Rust. For full usage details, see the API documentation(https://maciejkula.github.io/rustlearn/doc/rustlearn/).
 * [2020-01-12][Died] https://github.com/Entscheider/stamm - Stamm is a rust library for creating decision trees and random forests in a very general way. Decision trees are used in machine learning for classification and regression. A random forest bundles some decision trees for making a more precise classification or regression.
 * [2020-01-13][Died] https://github.com/kernelmachine/rust-linear-algebra - rust linear algebra.
-* [2020-01-13][Died] https://github.com/kernelmachine/rsml - machine learning algorithms in rust
+* [2020-01-13][Died] https://github.com/kernelmachine/rsml - machine learning algorithms in rust.
+* [2020-01-13][Died] https://github.com/maciejkula/wyrm - Autodifferentiation package in Rust. Performs backpropagation through arbitrary, define-by-run computation graphs, emphasizing low overhead estimation of sparse, small models on the CPU. Highlights: Low overhead; Built-in support for sparse gradients; Define-by-run; Trivial Hogwild-style parallelisation, scaling linearly with the number of CPU cores available.
+* [2020-01-13][Active] https://github.com/maciejkula/sbr-rs - Deep recommender systems for Rust(LSTM, EWMA). An implementation of sequence recommenders based on the wyrm autdifferentiaton library.
+* [2020-01-13][Active] https://github.com/blas-lapack-rs/blas-src - BLAS(Basic Linear Algebra Subprograms基本线性计算) source of choice (https://github.com/blas-lapack-rs/blas-lapack-rs.github.io/wiki).
+* [2020-01-13][Active]  https://github.com/blas-lapack-rs/openblas-src - Source of BLAS and LAPACK via OpenBLAS (https://blas-lapack-rs.github.io/usage).
+
 
 ### InterActive with Other Programming-Language/Platform
 * [2019-10-18][Active] https://github.com/RustPython/RustPython - Looks good to me
