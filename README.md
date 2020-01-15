@@ -61,6 +61,8 @@ status:
 * [2019-10-29][Active] https://github.com/kelseyhightower/kubernetes-the-hard-way - Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts
 * [2019-10-30][Active] https://github.com/rShetty/awesome-podcasts - awesome blogs, not limited to rust.
 * [2019-10-30][Active] https://docs.rust-embedded.org/embedonomicon/ - The embedonomicon walks you through the process of creating a #![no_std] application from scratch and through the iterative process of building architecture-specific functionality for Cortex-M microcontrollers, specified, cortex-m-rt, msp430-rt and riscv-rt.
+* [2019-10-30][Active] https://github.com/Gankro/too-many-lists - https://rust-unofficial.github.io/too-many-lists/ - 
+* [2019-10-30][Active] https://this-week-in-rust.org/ - 
 
 Others:
 http://acm.timus.ru/help.aspx?topic=rust
