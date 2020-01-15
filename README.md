@@ -32,7 +32,7 @@ status:
 * [2019-10-20][Active] https://github.com/rust-lang-nursery/nomicon - The Dark Arts of Advanced and Unsafe Rust Programming. This book digs into all the awful details that are necessary to understand in order to write correct Unsafe Rust programs. Due to the nature of this problem, it may lead to unleashing untold horrors that shatter your psyche into a billion infinitesimal fragments of despair.
 * [2019-10-20][Active] https://github.com/rust-lang-nursery/reference - Official of The Rust Language Reference
 * [2019-10-18][Active] https://github.com/rust-lang/book 
-* [2019-10-18][Died] https://github.com/rustcc/RustPrimer
+* [2019-10-18][Died] https://github.com/rustcc/RustPrimer - great book.
 * [2019-10-18][Active] https://github.com/rust-lang/rust-clippy - A collection of lints to catch common mistakes and improve your Rust code.
 * [2019-10-18][Active] https://github.com/nrc/r4cppp - A Rust tutorial for experienced C and C++ programmers.
 * [2019-10-18][Died] https://github.com/stevedonovan/gentle-intro
@@ -564,7 +564,8 @@ Termbox is a library that provides a minimalistic API which allows the programme
 ### Blockchain
 * [2019-10-22][Active] https://github.com/holochain/holochain-rust - The core Holochain framework written in rust, a container API for running it (with rust and node implementations), and hdk-rust library for writing Zomes.
 * [2019-10-23][Active] https://github.com/rust-bitcoin/rust-bitcoin - Library with support for de/serialization, parsing and executing on data structures and network messages related to Bitcoin.
-* [2019-10-23][Active] https://github.com/libra/libra - too well known.
+* [2019-10-23][Active] https://github.com/libra/libra - too well known. blockchain project.
+* [2020-01-15][Active] https://github.com/qtumproject - https://qtum.org/. blockchain project.
 * [2019-10-7][Active] https://github.com/paritytech/trie - A generic implementation of the Base-16 Modified Merkle Tree ("Trie") data structure: Trie DB (trie-db crate) and Trie Hash (trie-hash crate). explanation： https://zhuanlan.zhihu.com/p/46702178
 * [2019-10-27][Active] https://github.com/tafia/quick-patricia-trie - A toy implementation of a (merkle)patricia tree as used in ethereum. The implementation is strongly inspired by parity patricia-trie. This is a total reimplementation from scratch so there are numerous differences.
 * [2019-10-28][Active] https://github.com/exonum/exonum - An extensible open-source framework for creating private/permissioned blockchain applications. xonum can be used to create cryptographically powered distributed ledgers in virtually any problem domain, including FinTech, GovTech, and LegalTech. The Exonum framework is oriented towards creating permissioned blockchains, that is, blockchains with the known set of blockchain infrastructure providers.
