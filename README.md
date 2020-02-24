@@ -357,7 +357,7 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-10-29][Active] https://github.com/capnproto/capnproto-rust - Cap'n Proto is a type system for distributed systems. You can then use the capnp tool to generate code in a variety of programming languages. The generated code lets you produce and consume values of the types you've defined in your schema. Values are encoded in a format that is suitable not only for transmission over a network and persistence to disk, but also for zero-copy in-memory traversal. That is, you can completely skip serialization and deserialization! It's in this sense that Cap'n Proto is "infinity times faster" than alternatives like Protocol Buffers.
 * [2019-11-22][Active] https://github.com/TheDan64/inkwell - It's a New Kind of Wrapper for Exposing LLVM (Safely) https://thedan64.github.io/inkwell/
 * [2019-11-25][Dicd] https://github.com/huonw/python_mixin - python_mixin, Run Python code to make your Rust code, in your Rust code. Probably not, this is mainly me experimenting with more language plugins. A more portable/usable way to do this sort of code-generation is via a Cargo build script plus the include! macro.
-
+* [2020-02-24][Active] https://github.com/finalfusion/finalfusion-rust/ - finalfusion is a crate for reading, writing, and using embeddings in Rust. finalfusion primarily works with its own format which supports a large variety of features. Additionally, the fastText, word2vec and GloVe file formats are also supported.
 
 ### Middleware relatives
 * [2019-10-18][Active] https://github.com/pingcap/raft-rs - A distributed consensus algorithm implemented in Rust.
