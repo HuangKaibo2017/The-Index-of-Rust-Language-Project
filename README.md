@@ -261,7 +261,7 @@ https://github.com/rust-lang/rfcs - RFCs
 * [2019-11-25][Active] https://github.com/huonw/hamming - Compute the Hamming weight of a vector and the Hamming distance between two efficiently http://huonw.github.io/hamming/hamming
 * [2020-01-13][Active] https://github.com/blas-lapack-rs/blas-src - BLAS(Basic Linear Algebra Subprograms基本线性计算) source of choice (https://github.com/blas-lapack-rs/blas-lapack-rs.github.io/wiki).
 * [2020-01-13][Active]  https://github.com/blas-lapack-rs/openblas-src - Source of BLAS and LAPACK via OpenBLAS (https://blas-lapack-rs.github.io/usage).
-
+* [2020-04-17][Active]  https://github.com/ritchie46/lsh-rs - Locality Sensitivy Hashing (LSH)
 
 ### Data, Data opt/etl or Database/Datawarehouse opt relatives
 * [2019-10-18][Active] https://github.com/pingcap/rust-prometheus
